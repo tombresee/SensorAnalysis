@@ -5,6 +5,34 @@ Array Of Things (AoT)
 
 |
 
+* https://github.com/sagecontinuum/sage-ecr
+
+* https://github.com/sagecontinuum
+
+* https://github.com/sagecontinuum/SageScienceExamples/blob/master/Mobotix_RadTherm/Ground/All_Data_Plot.ipynb
+
+* https://github.com/sagecontinuum/SageScienceExamples/blob/master/WiseNet_RadTherm_Camera/Read_And_Scale_From_4030TR.ipynb
+
+* https://www.spec-sensors.com/
+
+* https://www.research.northwestern.edu/world-watchers/
+
+* https://datasmart.ash.harvard.edu/news/article/a-guide-to-chicagos-array-of-things-initiative-1190
+
+* https://www.anl.gov/mcs/array-of-things
+
+* https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php
+
+* http://wa8.gl/data/
+
+* https://github.com/waggle-sensor/beehive-server/tree/master/publishing-tools/projects
+
+* Nodes:  https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv
+
+* Sensors: https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv
+
+* 
+
 
 Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,6 +51,26 @@ Introduction
 
 |
 |
+
+SAGE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* The SAGE Project - https://sagecontinuum.org/
+
+* With Sage, advanced machine learning algorithms will be moved to “the edge.” Edge computing is a way to streamline data flowing from Internet of Things (IoT) devices by providing data analysis very near the site where the data is gathered. By linking small, powerful, computers directly to high-resolution cameras, air quality and weather sensors, and experimental Light Detection and Ranging (LIDAR) systems, this new distributed infrastructure will enable researchers to analyze and respond to data almost instantly. From early detection of wildfire smoke plumes in California to identifying ultrasonic calls of bats or the patterns of pedestrians in a busy crosswalk, Sage’s artificial intelligence-enabled sensors will give scientists a new tool to understand our planet.
+
+* SAGE - https://sagecontinuum.github.io/sage-docs/docs/about/overview
+
+* **SAGE** - `Access Sage Sensors <https://sagecontinuum.github.io/sage-docs/docs/tutorials/access-sage-sensors>`_
+
+* https://www.mccormick.northwestern.edu/news/articles/2020/05/workshop-explores-potential-of-smart-sensors-for-environmental-monitoring.html
+
+
+
+|
+|
+
+
 
 What is the Chicago AoT Program ? 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
