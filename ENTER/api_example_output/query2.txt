@@ -1,0 +1,76 @@
+
+
+The following query will get the latest uptime measurements from all devices in the last 3 days:
+
+curl -H 'Content-Type: application/json' https://data.sagecontinuum.org/api/v1/query -d '
+{
+    "start": "-3d",
+    "tail": 1,
+    "filter": {
+        "name": "sys.uptime"
+    }
+}
+'
+
+
+This is the exact output:
+
+root@LONE-WOLF:/mnt/c/Windows/system32# curl -H 'Content-Type: application/json' https://data.sagecontinuum.org/api/v1/query -d '
+> {
+>     "start": "-3d",
+>     "tail": 1,
+>     "filter": {
+>         "name": "sys.uptime"
+>     }
+> }
+> '
+{"timestamp":"2021-09-12T18:39:41.768053804Z","name":"sys.uptime","value":1106808.1,"meta":{"host":"000048b02d05a0a4.ws-nxcore","node":"000048b02d05a0a4"}}
+{"timestamp":"2021-09-12T18:40:12.685584098Z","name":"sys.uptime","value":1108616.5,"meta":{"host":"000048b02d05a1c2.ws-nxcore","node":"000048b02d05a1c2"}}
+{"timestamp":"2021-09-12T18:39:51.578139005Z","name":"sys.uptime","value":1108611.81,"meta":{"host":"000048b02d05a1c6.ws-nxcore","node":"000048b02d05a1c6"}}
+{"timestamp":"2021-09-12T18:40:16.334391995Z","name":"sys.uptime","value":1108635.71,"meta":{"host":"000048b02d05a1c7.ws-nxcore","node":"000048b02d05a1c7"}}
+{"timestamp":"2021-09-10T17:23:39.383136659Z","name":"sys.uptime","value":931223.41,"meta":{"host":"000048b02d0766d2.ws-nxcore","node":"000048b02d0766d2"}}
+{"timestamp":"2021-09-12T18:39:29.453599752Z","name":"sys.uptime","value":1108529,"meta":{"host":"000048b02d15bc3d.ws-nxcore","node":"000048b02d15bc3d"}}
+{"timestamp":"2021-09-12T18:39:50.115530072Z","name":"sys.uptime","value":1108610,"meta":{"host":"000048b02d15bc4c.ws-nxcore","node":"000048b02d15bc4c"}}
+{"timestamp":"2021-09-12T18:40:19.183319084Z","name":"sys.uptime","value":1369858.21,"meta":{"host":"000048b02d15bc68.ws-nxcore","node":"000048b02d15bc68"}}
+{"timestamp":"2021-09-12T18:36:40.260170512Z","name":"sys.uptime","value":1108420.91,"meta":{"host":"000048b02d15bc6d.ws-nxcore","node":"000048b02d15bc6d"}}
+{"timestamp":"2021-09-11T17:09:35.136271533Z","name":"sys.uptime","value":173634.3,"meta":{"host":"000048b02d15bc72.ws-nxcore","node":"000048b02d15bc72"}}
+{"timestamp":"2021-09-10T22:56:26.583877252Z","name":"sys.uptime","value":6188.31,"meta":{"host":"000048b02d15bc73.ws-nxcore","node":"000048b02d15bc73"}}
+{"timestamp":"2021-09-12T18:40:17.779593397Z","name":"sys.uptime","value":1024981.1,"meta":{"host":"000048b02d15bc77.ws-nxcore","node":"000048b02d15bc77"}}
+{"timestamp":"2021-09-12T18:39:40.513576179Z","name":"sys.uptime","value":1108600.21,"meta":{"host":"000048b02d15bc7c.ws-nxcore","node":"000048b02d15bc7c"}}
+{"timestamp":"2021-09-12T18:39:20.042142663Z","name":"sys.uptime","value":1108579.91,"meta":{"host":"000048b02d15bc7d.ws-nxcore","node":"000048b02d15bc7d"}}
+{"timestamp":"2021-09-12T18:39:52.247866267Z","name":"sys.uptime","value":761298.9,"meta":{"host":"000048b02d15bc87.ws-nxcore","node":"000048b02d15bc87"}}
+{"timestamp":"2021-09-12T18:39:41.563636457Z","name":"sys.uptime","value":1109876.01,"meta":{"host":"000048b02d15bc8c.ws-nxcore","node":"000048b02d15bc8c"}}
+{"timestamp":"2021-09-12T18:36:21.618912536Z","name":"sys.uptime","value":1108433.21,"meta":{"host":"000048b02d15bd2a.ws-nxagent","node":"000048b02d15bc6d"}}
+{"timestamp":"2021-09-09T19:14:42.408486833Z","name":"sys.uptime","value":80204.41,"meta":{"host":"000048b02d15bd2f.ws-nxcore","node":"000048b02d15bd2f"}}
+{"timestamp":"2021-09-12T18:39:24.505180638Z","name":"sys.uptime","value":1108558.71,"meta":{"host":"000048b02d15bda5.ws-nxcore","node":"000048b02d15bda5"}}
+{"timestamp":"2021-09-12T18:40:15.029562637Z","name":"sys.uptime","value":1108619.41,"meta":{"host":"000048b02d15bdc2.ws-nxcore","node":"000048b02d15bdc2"}}
+{"timestamp":"2021-09-12T18:39:28.353790115Z","name":"sys.uptime","value":1112196.41,"meta":{"host":"000048b02d15bdc7.ws-nxcore","node":"000048b02d15bdc7"}}
+{"timestamp":"2021-09-10T21:47:56.306085342Z","name":"sys.uptime","value":472.12,"meta":{"host":"000048b02d15bdcd.ws-nxcore","node":"000048b02d15bdcd"}}
+{"timestamp":"2021-09-12T18:39:22.231211148Z","name":"sys.uptime","value":1108565.31,"meta":{"host":"000048b02d15bdd2.ws-nxcore","node":"000048b02d15bdd2"}}
+{"timestamp":"2021-09-10T21:48:20.543966405Z","name":"sys.uptime","value":436.41,"meta":{"host":"000048b02d15c19b.ws-nxagent","node":"000048b02d15bdcd"}}
+{"timestamp":"2021-09-12T18:40:17.310113655Z","name":"sys.uptime","value":1108621.01,"meta":{"host":"000048b02d15c319.ws-nxcore","node":"000048b02d15c319"}}
+{"timestamp":"2021-09-12T18:39:36.531729573Z","name":"sys.uptime","value":1108596.51,"meta":{"host":"000048b02d15c31a.ws-nxcore","node":"000048b02d15c31a"}}
+{"timestamp":"2021-09-12T18:40:15.126531761Z","name":"sys.uptime","value":1108606.21,"meta":{"host":"000048b02d15c31f.ws-nxcore","node":"000048b02d15c31f"}}
+{"timestamp":"2021-09-12T18:39:45.632861051Z","name":"sys.uptime","value":534268.3,"meta":{"host":"000048b02d15c328.ws-nxcore","node":"000048b02d15c328"}}
+{"timestamp":"2021-09-12T18:39:31.121641235Z","name":"sys.uptime","value":1108621.31,"meta":{"host":"000048b02d15cdda.ws-nxagent","node":"000048b02d15c31a"}}
+{"timestamp":"2021-09-12T18:39:31.865652888Z","name":"sys.uptime","value":1471461.12,"meta":{"host":"00004cd98fc686c9.dellblade","node":"00004cd98fc686c9"}}
+{"timestamp":"2021-09-10T21:48:46.499177636Z","name":"sys.uptime","value":411.7,"meta":{"host":"0000dca632a2fa45.ws-rpi","node":"000048b02d15bdcd"}}
+{"timestamp":"2021-09-12T18:40:00.649543363Z","name":"sys.uptime","value":761016.52,"meta":{"host":"0000dca632a2fa54.ws-rpi","node":"000048b02d15bc87"}}
+{"timestamp":"2021-09-12T18:40:12.616710233Z","name":"sys.uptime","value":1108557.6,"meta":{"host":"0000dca632a3058b.ws-rpi","node":"000048b02d15bc7c"}}
+{"timestamp":"2021-09-12T18:40:00.039273378Z","name":"sys.uptime","value":1108519.5,"meta":{"host":"0000dca632a305be.ws-rpi","node":"000048b02d15bda5"}}
+{"timestamp":"2021-09-12T18:40:18.736673184Z","name":"sys.uptime","value":1108563,"meta":{"host":"0000dca632a305c8.ws-rpi","node":"000048b02d05a1c7"}}
+{"timestamp":"2021-09-11T17:09:25.487612375Z","name":"sys.uptime","value":166370.61,"meta":{"host":"0000dca632a3061a.ws-rpi","node":"000048b02d15bc72"}}
+{"timestamp":"2021-09-12T18:39:58.106496803Z","name":"sys.uptime","value":1108542.61,"meta":{"host":"0000dca632a30627.ws-rpi","node":"000048b02d15c319"}}
+{"timestamp":"2021-09-12T18:39:27.705984338Z","name":"sys.uptime","value":1108506.31,"meta":{"host":"0000dca632a30639.ws-rpi","node":"000048b02d15bc4c"}}
+{"timestamp":"2021-09-10T17:23:39.779626295Z","name":"sys.uptime","value":931134.12,"meta":{"host":"0000dca632a30642.ws-rpi","node":"000048b02d0766d2"}}
+{"timestamp":"2021-09-12T18:39:43.870718817Z","name":"sys.uptime","value":1024862.41,"meta":{"host":"0000dca632a3064b.ws-rpi","node":"000048b02d15bc77"}}
+{"timestamp":"2021-09-12T18:40:19.620187485Z","name":"sys.uptime","value":1108561.41,"meta":{"host":"0000dca632a3069c.ws-rpi","node":"000048b02d05a1c6"}}
+{"timestamp":"2021-09-12T18:39:39.774788601Z","name":"sys.uptime","value":1108496.1,"meta":{"host":"0000dca632a3069f.ws-rpi","node":"000048b02d15c31f"}}
+{"timestamp":"2021-09-12T18:39:55.619384624Z","name":"sys.uptime","value":1108539.11,"meta":{"host":"0000dca632a306d8.ws-rpi","node":"000048b02d15c31a"}}
+{"timestamp":"2021-09-10T22:56:19.500477977Z","name":"sys.uptime","value":6075.6,"meta":{"host":"0000dca632a3074d.ws-rpi","node":"000048b02d15bc73"}}
+{"timestamp":"2021-09-12T18:36:47.809059768Z","name":"sys.uptime","value":1108352.3,"meta":{"host":"0000dca632a3076b.ws-rpi","node":"000048b02d15bc6d"}}
+{"timestamp":"2021-09-12T18:39:54.84259087Z","name":"sys.uptime","value":1043413.61,"meta":{"host":"0000dca632a3078f.ws-rpi","node":"000048b02d15bdc7"}}
+{"timestamp":"2021-09-12T18:39:26.36530266Z","name":"sys.uptime","value":1110132.51,"meta":{"host":"0000dca632a307b6.ws-rpi","node":"000048b02d15bc8c"}}
+{"timestamp":"2021-09-12T18:40:12.781022791Z","name":"sys.uptime","value":1108559.7,"meta":{"host":"0000dca632a307bf.ws-rpi","node":"000048b02d15bc7d"}}
+{"timestamp":"2021-09-12T18:40:05.49352226Z","name":"sys.uptime","value":1108522.31,"meta":{"host":"0000dca632a307e6.ws-rpi","node":"000048b02d05a1c2"}}
+{"timestamp":"2021-09-12T18:39:35.217504732Z","name":"sys.uptime","value":534151.25,"meta":{"host":"0000dca632a307fb.ws-rpi","node":"000048b02d15c328"}}

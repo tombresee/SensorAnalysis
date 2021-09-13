@@ -1,0 +1,15 @@
+
+* Time Series Vizes of old AoT:  https://github.com/ddiLab/CommunitySensing/blob/master/AoT-Workshop_2018/AoT_Tutorial.ipynb
+
+* Article:  https://cloud4scieng.org/a-book/notebooks/
+
+* https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api
+
+* https://github.com/sagecontinuum/SageScienceExamples/blob/master/Mobotix_RadTherm/Ground/Mobotix_Ground_Temp_ASOS_Comparison.ipynb
+
+* http://arrayofthings.github.io/
+
+* https://sagecontinuum.github.io/sage-docs/docs/tutorials/accessing-data
+
+* 
+

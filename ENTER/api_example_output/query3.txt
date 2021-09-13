@@ -1,0 +1,47 @@
+
+The Sage sensor query API allows for flexible access to historical and "real time" data in Sage. This example shows how to retrieve data the latest data from a specific sensor (you can adjust the start field if you do not get any recent data):
+
+
+root@LONE-WOLF:/mnt/c/Windows/system32# curl -H 'Content-Type: application/json' https://data.sagecontinuum.org/api/v1/query -d '
+> {
+>     "start": "-10s",
+>     "filter": {
+>         "sensor": "bme680"
+>     }
+> }
+> '
+{"timestamp":"2021-09-12T18:45:28.31682328Z","name":"env.pressure","value":98899,"meta":{"node":"000048b02d05a1c7","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.089823304Z","name":"env.pressure","value":98745,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:25.804656064Z","name":"env.pressure","value":97899,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:19.38338331Z","name":"env.pressure","value":98939,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.235202772Z","name":"env.pressure","value":98893,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:28.320726498Z","name":"env.relative_humidity","value":45.261,"meta":{"node":"000048b02d05a1c7","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.098028978Z","name":"env.relative_humidity","value":30.712,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:25.800304281Z","name":"env.relative_humidity","value":24.955,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:19.388455616Z","name":"env.relative_humidity","value":45.497,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.245959539Z","name":"env.relative_humidity","value":54.745,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:28.323626971Z","name":"env.temperature","value":27.55,"meta":{"node":"000048b02d05a1c7","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.095368382Z","name":"env.temperature","value":30.85,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:25.80226625Z","name":"env.temperature","value":35.26,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:19.385769863Z","name":"env.temperature","value":31.7,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.239778686Z","name":"env.temperature","value":25.15,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:28.320564093Z","name":"iio.in_humidityrelative_input","value":45.261,"meta":{"node":"000048b02d05a1c7","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.097876183Z","name":"iio.in_humidityrelative_input","value":30.712,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:25.800214227Z","name":"iio.in_humidityrelative_input","value":24.955,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:19.38838045Z","name":"iio.in_humidityrelative_input","value":45.497,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.245816041Z","name":"iio.in_humidityrelative_input","value":54.745,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:28.316707356Z","name":"iio.in_pressure_input","value":988.99,"meta":{"node":"000048b02d05a1c7","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.08973362Z","name":"iio.in_pressure_input","value":987.45,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:25.804542085Z","name":"iio.in_pressure_input","value":978.99,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:19.383287349Z","name":"iio.in_pressure_input","value":989.39,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.235070089Z","name":"iio.in_pressure_input","value":988.93,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:28.32700816Z","name":"iio.in_resistance_input","value":509359,"meta":{"node":"000048b02d05a1c7","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.092704212Z","name":"iio.in_resistance_input","value":100613,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:25.79815263Z","name":"iio.in_resistance_input","value":2429737,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:19.381210623Z","name":"iio.in_resistance_input","value":465398,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.251296941Z","name":"iio.in_resistance_input","value":141613,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:28.323510214Z","name":"iio.in_temp_input","value":27550,"meta":{"node":"000048b02d05a1c7","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.095226643Z","name":"iio.in_temp_input","value":30850,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:25.802175974Z","name":"iio.in_temp_input","value":35260,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:19.38565268Z","name":"iio.in_temp_input","value":31700,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:45:22.23962341Z","name":"iio.in_temp_input","value":25150,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}

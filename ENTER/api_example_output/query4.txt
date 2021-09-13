@@ -1,0 +1,44 @@
+
+
+
+
+root@LONE-WOLF:/mnt/c/Windows/system32# curl -H 'Content-Type: application/json' https://data.sagecontinuum.org/api/v1/query -d '
+> {
+>     "start": "-10s",
+>     "filter": {
+>         "sensor": "bme680"
+>     }
+> }
+> '
+{"timestamp":"2021-09-12T18:47:52.287531189Z","name":"env.pressure","value":98731,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:55.918171494Z","name":"env.pressure","value":97899,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:49.5264817Z","name":"env.pressure","value":98931,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.441269915Z","name":"env.pressure","value":98897,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.295501883Z","name":"env.relative_humidity","value":30.673,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:55.912913003Z","name":"env.relative_humidity","value":25.446,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:49.531221067Z","name":"env.relative_humidity","value":45.14,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.448009426Z","name":"env.relative_humidity","value":55.327,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.292773955Z","name":"env.temperature","value":30.87,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:55.915653164Z","name":"env.temperature","value":35.5,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:49.528738719Z","name":"env.temperature","value":31.56,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.443218646Z","name":"env.temperature","value":25.2,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.295391237Z","name":"iio.in_humidityrelative_input","value":30.673,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:55.912825431Z","name":"iio.in_humidityrelative_input","value":25.446,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:49.531132698Z","name":"iio.in_humidityrelative_input","value":45.14,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.447902854Z","name":"iio.in_humidityrelative_input","value":55.327,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.287439579Z","name":"iio.in_pressure_input","value":987.31,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:55.918043959Z","name":"iio.in_pressure_input","value":978.99,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:49.526382258Z","name":"iio.in_pressure_input","value":989.31,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.441177565Z","name":"iio.in_pressure_input","value":988.97,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.290428615Z","name":"iio.in_resistance_input","value":101037,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:55.9091446Z","name":"iio.in_resistance_input","value":2472325,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:49.524243978Z","name":"iio.in_resistance_input","value":467663,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.452424564Z","name":"iio.in_resistance_input","value":142641,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.292662327Z","name":"iio.in_temp_input","value":30870,"meta":{"node":"000048b02d15bc4c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:55.915536573Z","name":"iio.in_temp_input","value":35500,"meta":{"node":"000048b02d15bc77","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:49.528652905Z","name":"iio.in_temp_input","value":31560,"meta":{"node":"000048b02d15bc7c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+{"timestamp":"2021-09-12T18:47:52.443088444Z","name":"iio.in_temp_input","value":25200,"meta":{"node":"000048b02d15bc8c","plugin":"plugin-iio:0.2.0","sensor":"bme680"}}
+
+
+NOTE:  still getting real time data, so its not dead yet ! 
+

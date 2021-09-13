@@ -5,6 +5,7 @@ Array Of Things (AoT)
 
 |
 
+
 * https://github.com/sagecontinuum/sage-ecr
 
 * https://github.com/sagecontinuum
@@ -30,6 +31,10 @@ Array Of Things (AoT)
 * Nodes:  https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv
 
 * Sensors: https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv
+
+* https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv
+
+* Sensors list out ! 
 
 * 
 
