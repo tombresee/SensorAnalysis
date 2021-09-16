@@ -27,11 +27,11 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [001 - Reading Metadata Files](http://jekyllrb.com/)
 - [002 - Reading Data](http://jekyllrb.com/)
 - [003 - Initial EDA](http://jekyllrb.com/)
-- [004 - Exploration](http://jekyllrb.com/)
-- [005 - Isolation Forest](http://jekyllrb.com/)
-- [006 - Clustering](http://jekyllrb.com/)
-
-
+- [004 - Node Location Visualization](http://jekyllrb.com/)
+- [005 - Exploration](http://jekyllrb.com/)
+- [006 - Isolation Forest](http://jekyllrb.com/)
+- [007 - Clustering](http://jekyllrb.com/)
+- [008 - Summary](http://jekyllrb.com/)
 
 
 
