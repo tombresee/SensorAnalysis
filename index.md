@@ -16,7 +16,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 ### Jupyter Notebooks Code
 
-- <span style="font-size:1em;">[001 - Reading Data](http://jekyllrb.com/)</span>
+- <span style="font-size:2em;">[001 - Reading Data](http://jekyllrb.com/)</span>
 - [001 - Reading Data](http://jekyllrb.com/)
 - [jQuery](http://jquery.com/)
 
