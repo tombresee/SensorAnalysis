@@ -10,7 +10,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 #### Technical Background and Overview 
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
+- [The Noun Project](https://thenounproject.com) -- Garrett Knoll
 - [Font Awesome](http://fontawesome.io/)
 - [Unsplash](https://unsplash.com/)
 
