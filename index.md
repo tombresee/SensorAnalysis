@@ -29,10 +29,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 ##  Notable features
 
 - Bundled as a "theme gem" for easier installation/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
 - Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
 
 
@@ -46,11 +42,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
 | [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
+| [HTML Tags and Formatting Post][html-tags-post] | A variety of them |
 | [Tags Archive][tags-archive] | Posts grouped by tag. |
 
 
