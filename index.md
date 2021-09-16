@@ -11,7 +11,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 #### Technical Background and Overview 
 
 
-- [Data Source](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)  -- Master file (_AoT_Chicago.complete.latest.tar_) that expands to a 340 GB csv file when unzipped 
+- [Data Source](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php) 
+  - Master file (_AoT_Chicago.complete.latest.tar_) that expands to a 340 GB csv file when unzipped 
 - [Unzipping Data Procedure](https://github.com/waggle-sensor/waggle/blob/master/data/aot-readme.md)  
 - [Data Ontology](ENTER/docs/sensor_ontology.csv) -- Sensor breakout and parameter ranges 
 - [High Level Overview](https://datasmart.ash.harvard.edu/news/article/a-guide-to-chicagos-array-of-things-initiative-1190)
