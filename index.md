@@ -27,9 +27,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 
-##  Notable features
-
-- Bundled as a "theme gem" for easier installation/upgrading.
+##  Nodes Network
+- abc
 - Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
 
 
