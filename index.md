@@ -89,7 +89,7 @@ To test the theme, run `bundle exec rake preview` and open your browser at `http
 - [Font Awesome](http://fontawesome.io/)
 - [Unsplash](https://unsplash.com/)
 
-### Other:
+### Jupyter Notebooks Code:
 
 - [Jekyll](http://jekyllrb.com/)
 - [jQuery](http://jquery.com/)
