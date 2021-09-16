@@ -13,7 +13,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [The Noun Project](https://thenounproject.com) -- Garrett Knoll
 - [Font Awesome](http://fontawesome.io/)
 - [Unsplash](https://unsplash.com/)
-- [Data Source](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)  -- AoT_Chicago.complete.latest.tar master file that expands to a 340 GB csv file 
+- [Data Source](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)  -- `AoT_Chicago.complete.latest.tar` master file that expands to a 340 GB csv file 
 
 
 #### Jupyter Notebooks Code
