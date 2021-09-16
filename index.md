@@ -1,9 +1,9 @@
-# Sensor Analysis (AoT)
+# Array of Things (AoT)
 
 Towards a deeper understanding of IoT Unsupervised Learning techniques and sensor KPI parameter anomaly detection 
 
-
 <br>
+
 
 ## References 
 
