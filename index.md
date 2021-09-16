@@ -15,6 +15,12 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Unzipping Data Procedure](https://github.com/waggle-sensor/waggle/blob/master/data/aot-readme.md)  
 - [Data Ontology](ENTER/docs/sensor_ontology.csv) -- Sensor breakout and parameter ranges 
 - [High Level Overview](https://datasmart.ash.harvard.edu/news/article/a-guide-to-chicagos-array-of-things-initiative-1190)
+- [Project Homepage](https://tombresee.github.io/SensorAnalysis/)
+- [Heroku Results Summary Page](https://michigan-milestone.herokuapp.com/)
+
+
+
+
 
 
 
