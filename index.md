@@ -88,3 +88,14 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 [tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
 [year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
 
+<br>
+
+
+##  Left 2 Do 
+- Waggle repo integrate code 
+
+
+
+
+<br><br>
+
