@@ -25,6 +25,9 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Current Sensor List](http://arrayofthings.github.io/node.html)
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 
+#### Metadata
+- [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
+
 
 #### API 
 - [Access and Use Data](https://sagecontinuum.github.io/sage-docs/docs/tutorials/accessing-data)
