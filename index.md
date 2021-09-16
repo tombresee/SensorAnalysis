@@ -11,9 +11,9 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 #### Technical Background and Overview 
 
 - [The Noun Project](https://thenounproject.com) -- Garrett Knoll
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
 - [Data Source](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)  -- 'AoT_Chicago.complete.latest.tar' master file that expands to a 340 GB csv file when unzipped 
+- [Unzipping Data](https://github.com/waggle-sensor/waggle/blob/master/data/aot-readme.md)  -- Procedure for downloading and unzipping master data file
+
 
 
 #### Jupyter Notebooks Code
