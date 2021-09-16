@@ -95,7 +95,9 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 ##  Left 2 Do 
-- Waggle repo integrate code 
+- Waggle repo integrate code
+- Export the html version of the read pandas df metadata locs nodes etc 
+-  
 
 
 
