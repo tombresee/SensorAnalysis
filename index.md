@@ -23,6 +23,9 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 
+<br>
+
+
 
 ##  Notable features
 
@@ -34,6 +37,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
 
 
+
+<br>
 
 
 
