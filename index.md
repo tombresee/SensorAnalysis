@@ -5,9 +5,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <br>
 
 
-###  References 
+##  References 
 
-<br>
 
 #### Background
 
@@ -15,7 +14,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Font Awesome](http://fontawesome.io/)
 - [Unsplash](https://unsplash.com/)
 
-<br>
 
 #### Jupyter Notebooks Code
 
@@ -24,10 +22,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [jQuery](http://jquery.com/)
 
 
----
-
-
-###  Notable features
+##  Notable features
 
 - Bundled as a "theme gem" for easier installation/upgrading.
 - Compatible with GitHub Pages.
