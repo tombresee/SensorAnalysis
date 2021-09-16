@@ -60,23 +60,14 @@ For help with using the theme or general Jekyll support questions, please use th
 
 ## References 
 
-### Creator
-
-**Michael Rose**
-
-- <https://mademistakes.com>
-- <https://twitter.com/mmistakes>
-- <https://github.com/mmistakes>
-
-### Icons + Demo Images:
+### Background
 
 - [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
 - [Font Awesome](http://fontawesome.io/)
 - [Unsplash](https://unsplash.com/)
 
 
-
-### Jupyter Notebooks Code:
+### Jupyter Notebooks Code
 
 - [001 - Reading Data](http://jekyllrb.com/)
 - [jQuery](http://jquery.com/)
