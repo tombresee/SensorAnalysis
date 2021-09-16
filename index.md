@@ -2,7 +2,6 @@
 
 Towards a deeper understanding of IoT Unsupervised Learning techniques and sensor KPI parameter anomaly detection 
 
-I am in <span style="font-family:Papyrus; font-size:4em;">LOVE!</span>
 
 <br>
 
@@ -17,6 +16,7 @@ I am in <span style="font-family:Papyrus; font-size:4em;">LOVE!</span>
 
 ### Jupyter Notebooks Code
 
+- <span style="font-size:4em;">[001 - Reading Data](http://jekyllrb.com/)</span>
 - [001 - Reading Data](http://jekyllrb.com/)
 - [jQuery](http://jquery.com/)
 
