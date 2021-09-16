@@ -22,6 +22,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [jQuery](http://jquery.com/)
 
 
+
+
 ##  Notable features
 
 - Bundled as a "theme gem" for easier installation/upgrading.
@@ -35,7 +37,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 
-### Table
+## Table
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
