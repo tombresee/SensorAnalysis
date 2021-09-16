@@ -1,11 +1,11 @@
-# Array of Things (AoT)
+##  Array of Things (AoT)
 
 Towards a deeper understanding of IoT Unsupervised Learning techniques and sensor KPI parameter anomaly detection 
 
 <br>
 
 
-## References 
+###  References 
 
 #### Background
 
@@ -49,7 +49,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 | [Sample Collection Page][sample-collection] | Single page from a collection. |
 | [Categories Archive][categories-archive] | Posts grouped by category. |
 | [Tags Archive][tags-archive] | Posts grouped by tag. |
-
 
 
 [header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
