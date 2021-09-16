@@ -19,8 +19,11 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Heroku Results Summary Page](https://michigan-milestone.herokuapp.com/)
 
 
+
+
 #### Nodes 
 - [Current Sensor List](http://arrayofthings.github.io/node.html)
+- [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 
 
 #### API 
