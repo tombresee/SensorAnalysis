@@ -24,7 +24,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 #### Jupyter Notebooks Code
 
-- [001_Reading Metadata Files](http://jekyllrb.com/)
+- [001 - Reading Metadata Files](http://jekyllrb.com/)
 - [002 - Reading Data](http://jekyllrb.com/)
 - [003 - Initial EDA](http://jekyllrb.com/)
 - [004 - Exploration](http://jekyllrb.com/)
