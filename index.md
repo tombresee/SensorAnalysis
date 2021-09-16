@@ -1,4 +1,4 @@
-# [Sensor Analysis (AoT)
+# Sensor Analysis (AoT)
 
 Towards a deeper understanding of IoT Unsupervised Learning techniques and sensor KPI parameter anomaly detection 
 
