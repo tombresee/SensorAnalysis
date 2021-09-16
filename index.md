@@ -7,14 +7,14 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 ## References 
 
-### Background
+#### Background
 
 - [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
 - [Font Awesome](http://fontawesome.io/)
 - [Unsplash](https://unsplash.com/)
 
 
-### Jupyter Notebooks Code
+#### Jupyter Notebooks Code
 
 - <span style="font-size:1em;">[001 - Reading Data](http://jekyllrb.com/)</span>
 - [001 - Reading Data](http://jekyllrb.com/)
@@ -25,7 +25,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 
-## Notable features
+###  Notable features
 
 - Bundled as a "theme gem" for easier installation/upgrading.
 - Compatible with GitHub Pages.
@@ -38,7 +38,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 
-## Table
+### Table
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
