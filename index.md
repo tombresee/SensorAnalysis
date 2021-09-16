@@ -38,7 +38,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 
 
 
-## Demo pages
+## Table
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
@@ -50,7 +50,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 | [Categories Archive][categories-archive] | Posts grouped by category. |
 | [Tags Archive][tags-archive] | Posts grouped by tag. |
 
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
+
 
 [header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
 [gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
