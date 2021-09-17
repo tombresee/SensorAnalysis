@@ -21,6 +21,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 #### Nodes 
+- [Latest Nodes Online](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv)
 - [Current Sensor List](http://arrayofthings.github.io/node.html)
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 - [Common Waggle Sensors](https://github.com/waggle-sensor/sensors)
@@ -30,6 +31,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 #### Metadata
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 - [In-depth Sensor Information](https://github.com/waggle-sensor/sensors)
+- [Latest Sensors](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv)
 
 
 
