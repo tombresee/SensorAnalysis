@@ -27,6 +27,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 #### Metadata
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
+- [In-depth Sensor Information](https://github.com/waggle-sensor/sensors)
+
 
 
 #### API 
