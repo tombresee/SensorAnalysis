@@ -14,17 +14,17 @@ September 2021
 <br>
 
 
-# Table of Contents
+##  Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Table of Contents](#table-of-contents)
-  - [References](#references) 
-  - [Nodes Network](#nodes-network) 
-  - [Malfunction](#malfunction) 
-  - [What Data is Collected ?](#what-data-is-collected-?) 
-  - [Waggle](#waggle) 
-  - [Left 2 Do](#left-2-do) 
+- [References](#references) 
+- [Nodes Network](#nodes-network) 
+- [Malfunction](#malfunction) 
+- [What Data is Collected ?](#what-data-is-collected-?) 
+- [Waggle](#waggle) 
+- [Left 2 Do](#left-2-do) 
 <!-- /TOC -->
 
 <br>
