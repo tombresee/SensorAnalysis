@@ -18,8 +18,8 @@ September 2021
 
 - [Table of Contents](#table-of-contents)
   - [References](#References)
-  -   [Technical Background and Overview](#Technical Background and Overview) 
-
+  -   [Technical Background and Overview](#Technical-Background-and-Overview) 
+-   [Nodes Network](#Nodes-Network) 
 
 <!-- /TOC -->
 
