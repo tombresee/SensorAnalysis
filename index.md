@@ -22,6 +22,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 #### Nodes 
 - [Latest News AoT](http://arrayofthings.github.io/)
+- - [Latest Online Map](https://data.cityofchicago.org/Environment-Sustainable-Development/Array-of-Things-Locations-Map/2dng-xkng)
 - [Latest Nodes Online](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv)
 - [Current Sensor List](http://arrayofthings.github.io/node.html)
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
