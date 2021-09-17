@@ -43,6 +43,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Access and Use Data](https://sagecontinuum.github.io/sage-docs/docs/tutorials/accessing-data)
 - [Architecture](https://sagecontinuum.github.io/sage-docs/docs/about/arch-overview)
 - [Beehive Server](https://github.com/waggle-sensor/beehive-server)
+- [Real Time Querying Data via API](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
+
 
 
 #### Jupyter Notebooks Code
