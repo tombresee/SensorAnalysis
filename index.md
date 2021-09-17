@@ -64,14 +64,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - _These sensors are **ideal** for health, environmental, industrial and residential monitoring, because of their high performance, low cost and small size._
 
 
-
-NOTE: the 3SP-CO-1000 sensor is not intended for
-continuous operation at <10% RH. Extended periods
-(>60-90 days) of operation in <10% humidity may
-permanently damage the sensor.
-
-
-
 <br>
 
 ##  Malfunction 
