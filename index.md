@@ -93,6 +93,13 @@ Platform, see http://www.wa8.gl for details.
 
 <br>
 
+##  Left 2 Do 
+- Waggle repo integrate code
+- Export the html version of the read pandas df metadata locs nodes etc 
+- file:///D:/GITHUB_Repos/SensorAnalysis/ENTER/code/output_list_sensors_data.html
+- html links reprentable via github 3rd party:  sensor.html how host ???
+- Magnetic Field	Detect heavy vehicle flow
+
 
 
 [header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
@@ -103,17 +110,6 @@ Platform, see http://www.wa8.gl for details.
 [categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
 [tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
 [year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
-
-<br>
-
-
-##  Left 2 Do 
-- Waggle repo integrate code
-- Export the html version of the read pandas df metadata locs nodes etc 
--  file:///D:/GITHUB_Repos/SensorAnalysis/ENTER/code/output_list_sensors_data.html
--  html links reprentable via github 3rd party:  sensor.html how host ???
--  
-
 
 
 
