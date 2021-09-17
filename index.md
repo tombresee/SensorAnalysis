@@ -75,23 +75,24 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 <br>
 
+
 ##  What Data is Collected ? 
 - The nodes will initially measure temperature, barometric pressure, light, vibration, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic. Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water
 - The Array of Things project is interested in monitoring urban environment and activity, not individuals. In fact, the technology and policy have been designed to specifically minimize any potential collection of data about individuals, so privacy protection is built into the design of the sensors and into the operating policies
 
+<br>
+
+##  Waggle
+-  The Waggle Platform is an open source software and hardware platform
+for intelligent sensors with advanced edge computing and support for
+machine learning.  The Waggle Platform is used by several wireless
+sensor projects, including the Array of Things project
+(https://arrayofthings.github.io).  For more information on the Waggle
+Platform, see http://www.wa8.gl for details.
 
 
 <br>
 
-
-
-## Table
-
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of them |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
 
 
 [header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
