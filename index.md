@@ -20,7 +20,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 
-
 #### Nodes 
 - [Current Sensor List](http://arrayofthings.github.io/node.html)
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
@@ -70,8 +69,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <br>
 
 ##  Malfunction 
-- The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctined
-- Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies)
+- The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctioned. 
+- Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
 
 <br>
 
