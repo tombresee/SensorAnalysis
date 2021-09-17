@@ -61,6 +61,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - Chicago has one of the worst incidences of asthma mortality in the country; the nodes can help monitor air pollutant levels across the city and take appropriate measures where necessary.
 - Time-stamped pickup and drop-off data on 230mm total trips from both taxies and rideshare apps provide a wealth of information on how residents move through the city, which the city can use to improve efficiency of city operations.
 - The nodes can be used for different purposes depending on the area: the Chicago West and South sides commonly have flooding issues during rainstorms, and the nodes can be used to detect standing water, thus helping city employees identify bottlenecks in the city’s sewer system.
+- _These sensors are **ideal** for health, environmental, industrial and residential monitoring, because of their high performance, low cost and small size._
+
 
 
 NOTE: the 3SP-CO-1000 sensor is not intended for
