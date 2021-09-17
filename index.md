@@ -4,6 +4,13 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 <br>
 
+September 2021
+
+<dl>
+<dt>Link</dt>
+<dd><a href='https://tombresee.github.io/SensorAnalysis//'>https://tombresee.github.io/SensorAnalysis/</a></dd>
+</dl>
+
 
 ##  References 
 
@@ -109,7 +116,6 @@ Platform, see http://www.wa8.gl for details.
 - file:///D:/GITHUB_Repos/SensorAnalysis/ENTER/code/output_list_sensors_data.html
 - html links reprentable via github 3rd party:  sensor.html how host ???
 - Magnetic Field	Detect heavy vehicle flow
-
 
 
 [header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
