@@ -34,10 +34,11 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 #### API 
+- [Article](https://medium.com/array-of-things/array-of-things-releases-apis-for-chicago-data-enabling-applications-9bfdbe477df3)
+- [API Page](https://arrayofthings.docs.apiary.io/#reference)
 - [Access and Use Data](https://sagecontinuum.github.io/sage-docs/docs/tutorials/accessing-data)
 - [Architecture](https://sagecontinuum.github.io/sage-docs/docs/about/arch-overview)
 - [Beehive Server](https://github.com/waggle-sensor/beehive-server)
-
 
 
 #### Jupyter Notebooks Code
