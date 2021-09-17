@@ -100,6 +100,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - Waggle repo integrate code
 - Export the html version of the read pandas df metadata locs nodes etc 
 -  file:///D:/GITHUB_Repos/SensorAnalysis/ENTER/code/output_list_sensors_data.html
+-  html links reprentable via github 3rd party:  sensor.html how host ???
 -  
 
 
