@@ -46,6 +46,7 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - [Architecture](https://sagecontinuum.github.io/sage-docs/docs/about/arch-overview)
 - [Beehive Server](https://github.com/waggle-sensor/beehive-server)
 - [Real Time Querying Data via API](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
+- [Filtering Mechanisms Explained](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 
 
 
