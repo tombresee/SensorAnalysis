@@ -63,6 +63,18 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - The nodes can be used for different purposes depending on the area: the Chicago West and South sides commonly have flooding issues during rainstorms, and the nodes can be used to detect standing water, thus helping city employees identify bottlenecks in the city’s sewer system.
 
 
+NOTE: the 3SP-CO-1000 sensor is not intended for
+continuous operation at <10% RH. Extended periods
+(>60-90 days) of operation in <10% humidity may
+permanently damage the sensor.
+
+
+
+<br>
+
+##  Malfunction 
+- The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctined
+- Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies)
 
 <br>
 
