@@ -72,8 +72,9 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 - In addition, there is a more 'real-time' data API service available to pull the last week of data
-  - This is found via the API link - https://data.sagecontinuum.org/api
-  - We have created python scripts to pull this data on a per node, per sensor, per parameter level 
+  - This is found via the the below API link
+    - https://data.sagecontinuum.org/api
+   - We have created python scripts to pull this data on a per node, per sensor, per parameter level 
   - Detailed usage suggestions contained [here](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md)
  
 <br>
