@@ -30,6 +30,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 	- [Nodes](#nodes)
 	- [Metadata](#metdata)
 	- [API](#api)
+- [Reading Data](#reading-data)
 - [Unsupervised Learning Methods](#unsupervised-learning-methods)
 - [All Project Code](#all-project-code)
 	- [Jupyter Notebooks Code](#jupyter-notebooks-code)
@@ -127,6 +128,16 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 <br>
 
   
+# Reading Data
+ - Rows that contained odd non-float values (id values)
+ - xx                    sensor         parameter     value_hrf
+ - #2018-03-06 22:14:56  metsense id  011cd1141800
+
+	
+	
+<br>
+	
+	
 # Unsupervised Learning Methods
  - Briefly describe the workflow of your source code, the learning methods you used, and the feature representations you chose.
  - How did you tune parameters?
