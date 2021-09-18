@@ -2,17 +2,19 @@
 
 Towards a deeper understanding of IoT Unsupervised Learning techniques and sensor KPI parameter anomaly detection for AI Edge Computing tactics
 
+
 <br>
 
-September 2021
-
 <dl>
-<dt>Link</dt>
+<dt>Date</dt>
+<dd>September 2021</dd>
+<dt>Project Link</dt>
 <dd><a href='https://tombresee.github.io/SensorAnalysis//'>https://tombresee.github.io/SensorAnalysis/</a></dd>
+<dt>Authors</dt>
+<dd>Tom Bresee, Michael Phillips<dd>
 </dl>
 
 <br>
-
 
 ##  Table of Contents
 
