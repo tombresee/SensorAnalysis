@@ -38,6 +38,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Nodes Network](#nodes-network)
 - [Malfunction Information](#malfunction-information)
 - [Ethical Implications](#ethical-implications)
+- [Challenges](#challenges)
 - [Appendix](#appendix)
 
 
@@ -214,18 +215,20 @@ Platform, see http://www.wa8.gl for details.
 	
 <br>
     
-   
+## Challenges
+- abc
+	
+	
+<br>
+	
  
 ##  Appendix
 
 ### A. Follow Up Research
 - Additional examination to break out abc 
-- Waggle repo integrate code
-- Export the html version of the read pandas df metadata locs nodes etc 
-- file:///D:/GITHUB_Repos/SensorAnalysis/ENTER/code/output_list_sensors_data.html
-- html links reprentable via github 3rd party:  sensor.html how host ???
-- Magnetic Field - Detect heavy vehicle flow
+
 	
+
 
 [Top](#table-of-contents) 
 
