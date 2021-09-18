@@ -17,7 +17,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 <br>
 
-## Table of Contents
+# Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -44,7 +44,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <br>
 
 
-##  Motivation
+#  Motivation
 - As a continuing investigation into the world of real-world sensor analytics, we focus on a massive Internet of Things (IoT) cluster known as the [Array of Things](http://arrayofthings.github.io/), hosted in the city of Chicago and part of a continuing effort for `smart city` enablement.  It is expected that smart city initiatives will progress, as Chicago takes the lead in deploying its AoT cluster.  In recent years, the smart city concept has gone from theoretical to actual live production networks.  We leverage unsupervised machine learning tactics to dive deeper into a large set of this AoT data. 
 
 - _The IoT sector is expected to be a billion dollar market as advances in computing, lower cost sensors, and **5G** cellular technology progress._
@@ -55,14 +55,14 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <br>
 
 
-##  What Data is Collected in the AoT Cluster ?  
+#  What Data is Collected in the AoT Cluster ?  
 - The sensor nodes measure items such as temperature, barometric pressure, light, vibration, magnetic fluctation, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic.  Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water. 
 - The Array of Things project is inherently interested in monitoring urban environment and activity, and not necessarily specific individuals.  The base technology and policy have been designed to specifically minimize any potential collection of data about individuals, so privacy protection is built into the design of the sensors and into the operating policies.  The goal is extensive smart city granular data.  
 
 <br>
  
 
-## Data Deep Dive
+# Data Deep Dive
  
 - The main dataset is consolidated into one massive compressed file and hosted [here](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)
   - **filename** - AoT_Chicago.complete.latest.tar 
@@ -87,9 +87,9 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
  
 <br>
   
-##  References 
+#  References 
 
-### Technical Background and Overview 
+## Technical Background and Overview 
 
 - [Data Source](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php) -- Master file (_AoT_Chicago.complete.latest.tar_) that expands to 340 GB csv file
 - [Unzipping Data Procedure](https://github.com/waggle-sensor/waggle/blob/master/data/aot-readme.md)  
@@ -98,7 +98,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Project Homepage](https://tombresee.github.io/SensorAnalysis/)
 - [Heroku Results Summary Page](https://michigan-milestone.herokuapp.com/)
 
-### Nodes 
+## Nodes 
 - [Latest News AoT](http://arrayofthings.github.io/)
 - [Latest Online Map](https://data.cityofchicago.org/Environment-Sustainable-Development/Array-of-Things-Locations-Map/2dng-xkng)
 - [Latest Nodes Online](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv)
@@ -107,13 +107,13 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Common Waggle Sensors](https://github.com/waggle-sensor/sensors)
 - [The Sage Network](https://sagecontinuum.org/)
  
-### Metadata
+## Metadata
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 - [In-depth Sensor Information](https://github.com/waggle-sensor/sensors)
 - [Latest Sensors](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv)
 
   
-### API 
+## API 
 This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-relationships/observations-and-metrics) is no longer in service, it has been replaced with the below...
 - [Article](https://medium.com/array-of-things/array-of-things-releases-apis-for-chicago-data-enabling-applications-9bfdbe477df3)
 - [API Page](https://arrayofthings.docs.apiary.io/#reference)
@@ -127,9 +127,9 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 
   
   
-##  All Project Code
+#  All Project Code
  
-#### Jupyter Notebooks Code
+### Jupyter Notebooks Code
 
 - [Main Jupyter Code NbViewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
 - [001 - Examining Metadata Files](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/001_examining_sensor_metadata_csv_files.ipynb)
@@ -145,7 +145,7 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 <br>
  
 
-##  Waggle
+#  Waggle
 -  The Waggle Platform is an open source software and hardware platform
 for intelligent sensors with advanced edge computing and support for
 machine learning.  The Waggle Platform is used by several wireless
@@ -157,7 +157,7 @@ Platform, see http://www.wa8.gl for details.
 <br>
   
  
-##  Nodes Network
+#  Nodes Network
 - The nodes allow the city to track vehicle and pedestrian collisions to understand which intersections or traffic flows lead to pedestrian deaths and make urban planning changes accordingly.
 - Chicago has one of the worst incidences of asthma mortality in the country; the nodes can help monitor air pollutant levels across the city and take appropriate measures where necessary.
 - Time-stamped pickup and drop-off data on 230mm total trips from both taxies and rideshare apps provide a wealth of information on how residents move through the city, which the city can use to improve efficiency of city operations.
@@ -167,14 +167,14 @@ Platform, see http://www.wa8.gl for details.
 
 <br>
 
-##  Malfunction Information
+#  Malfunction Information
 - The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctioned. 
 - Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
 
 <br>
 
 
-##  Ethical Implications
+#  Ethical Implications
 - The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctioned. 
 - Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
 
@@ -183,20 +183,15 @@ Platform, see http://www.wa8.gl for details.
     
     
  
-##  Appendix
+#  Appendix
 
-###  Left 2 Do 
-- Waggle repo integrate code
- 
-<br>
- 
-
-###  Left 2 Do 
+##  Left 2 Do 
 - Waggle repo integrate code
 - Export the html version of the read pandas df metadata locs nodes etc 
 - file:///D:/GITHUB_Repos/SensorAnalysis/ENTER/code/output_list_sensors_data.html
 - html links reprentable via github 3rd party:  sensor.html how host ???
 - Magnetic Field - Detect heavy vehicle flow
+
 
 [Top](#table-of-contents) 
 
