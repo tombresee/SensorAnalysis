@@ -63,7 +63,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
   - **data date range** - March 2018 through April 2021 is the master time range represented in the data 
   - **granularity** - Every sensor parameter records parameter data every **25 seconds**
   - **raw rows of data** - 4 billion + 
-  - **important variables** 
+  - **important variables:** 
     - sensor node id 
     - subsystem type of sensor  
     - sensor parameter type (temperature, barometric pressure, etc)
