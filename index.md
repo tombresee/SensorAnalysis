@@ -123,10 +123,9 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - [Real Time Querying Data via API](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 - [Filtering Mechanisms Explained](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 
-
 <br>
 
- 
+  
 ##  All Project Code
  
 #### Jupyter Notebooks Code
@@ -142,9 +141,9 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - [007 - Clustering](http://jekyllrb.com/)
 - [008 - Summary](http://jekyllrb.com/)
  
-
 <br>
  
+
 ##  Waggle
 -  The Waggle Platform is an open source software and hardware platform
 for intelligent sensors with advanced edge computing and support for
