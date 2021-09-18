@@ -35,6 +35,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Waggle](#waggle)
 - [Nodes Network](#nodes-network)
 - [Malfunction Information](#malfunction-information)
+- [Ethical Implications](#ethical-implications)
 - [Appendix](#appendix)
 
 <!-- /TOC -->
@@ -172,6 +173,14 @@ Platform, see http://www.wa8.gl for details.
 <br>
 
 
+##  Ethical Implications
+- The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctioned. 
+- Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
+
+                                                                                                                                  
+<br>
+    
+    
  
 ##  Appendix
 
