@@ -57,13 +57,13 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 ## Data Deep Dive
  
 - The main dataset is consolidated into one massive compressed file and hosted [here](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)
- - **filename** - AoT_Chicago.complete.latest.tar 
- - **uncompressed size** - 320 GB
- - **uncompressed file type** - .csv
- - **data date range** - March 2018 through April 2021 is the master time range represented in the data 
- - **granularity** - Every sensor parameter records parameter data every **25 seconds**
- - **raw rows of data** - 4 billion + 
- - **important variables** 
+  - **filename** - AoT_Chicago.complete.latest.tar 
+  - **uncompressed size** - 320 GB
+  - **uncompressed file type** - .csv
+  - **data date range** - March 2018 through April 2021 is the master time range represented in the data 
+  - **granularity** - Every sensor parameter records parameter data every **25 seconds**
+  - **raw rows of data** - 4 billion + 
+  - **important variables** 
   - sensor node id 
   - subsystem type of sensor  
   - sensor parameter type (temperature, barometric pressure, etc)
@@ -72,8 +72,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 - In addition, there is a more 'real-time' data API service available to pull the last week of data
- - This is found via the API link - https://data.sagecontinuum.org/api
- - We have created python scripts to pull this data on a per node, per sensor, per parameter level 
+  - This is found via the API link - https://data.sagecontinuum.org/api
+  - We have created python scripts to pull this data on a per node, per sensor, per parameter level 
  
 <br>
  
