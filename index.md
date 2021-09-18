@@ -23,6 +23,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Table of Contents](#table-of-contents)
+- [Motivation](#motivation) 
 - [References](#references) 
 - [Nodes Network](#nodes-network) 
 - [Malfunction](#malfunction) 
