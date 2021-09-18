@@ -210,7 +210,7 @@ Platform, see http://www.wa8.gl for details.
 - Microphone and camera images will be processed in near-real-time within the installed equipment, not transmitted or stored, with the exception of less than 1% of images at random times, saved for the purposes of image processing software calibration. Although these images will not contain PII, they will be controlled and protected with the same measures typically afforded PII. 
 - During the 2016-2017 pilot period, the cameras were used for the purposes of detecting and publishing (a) count/flow of pedestrians, (b) count and flow of various vehicle types, and (c) extent to which road surface is covered with standing water (flooding). 
 - What ethical issues could arise in providing a solution here, and how could you address them?
- - <answer>	
+  - add 
       
 	
 <br>
