@@ -86,8 +86,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
   - Detailed usage suggestions contained [here](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md)
  
 <br>
- 
- 
+  
 ##  References 
 
 ### Technical Background and Overview 
@@ -113,6 +112,10 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [In-depth Sensor Information](https://github.com/waggle-sensor/sensors)
 - [Latest Sensors](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv)
 
+  
+<br>
+ 
+  
 ### API 
 This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-relationships/observations-and-metrics) is no longer in service, it has been replaced with the below...
 - [Article](https://medium.com/array-of-things/array-of-things-releases-apis-for-chicago-data-enabling-applications-9bfdbe477df3)
@@ -125,6 +128,7 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 
 <br>
 
+  
   
 ##  All Project Code
  
@@ -152,6 +156,9 @@ sensor projects, including the Array of Things project
 (https://arrayofthings.github.io).  For more information on the Waggle
 Platform, see http://www.wa8.gl for details.
  
+  
+<br>
+  
  
 ##  Nodes Network
 - The nodes allow the city to track vehicle and pedestrian collisions to understand which intersections or traffic flows lead to pedestrian deaths and make urban planning changes accordingly.
