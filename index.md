@@ -64,11 +64,11 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
   - **granularity** - Every sensor parameter records parameter data every **25 seconds**
   - **raw rows of data** - 4 billion + 
   - **important variables** 
-  - sensor node id 
-  - subsystem type of sensor  
-  - sensor parameter type (temperature, barometric pressure, etc)
-  - sensor parameter data value (raw)
-  - sensor parameter data value (human readable) - the most important value for analysis
+    - sensor node id 
+    - subsystem type of sensor  
+    - sensor parameter type (temperature, barometric pressure, etc)
+    - sensor parameter data value (raw)
+    - sensor parameter data value (human readable) - the most important value for analysis
 
 
 - In addition, there is a more 'real-time' data API service available to pull the last week of data
