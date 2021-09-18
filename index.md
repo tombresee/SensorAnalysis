@@ -200,24 +200,27 @@ Platform, see http://www.wa8.gl for details.
 	
 ##  Ethical Implications
 - Initial privacy policy for the original AoT network are documented [here](https://arrayofthings.github.io/privacypolicy.html)
-- Although the data we examined was specifically conventional sensor KPIs, there are additional data such as images that may show people's location or walking patterns
 - [Original Civic Engagement Report](https://arrayofthings.github.io/engagement-report.html)
+- According to the original AoT sensor network design, the sensors do **not** have the capability to measure or identify individuals; microphones and cameras in public spaces do not collect sensitive personally identifiable information (PII). 
+- Microphone and camera images will be processed in near-real-time within the installed equipment, not transmitted or stored, with the exception of less than 1% of images at random times, saved for the purposes of image processing software calibration. Although these images will not contain PII, they will be controlled and protected with the same measures typically afforded PII. 
+- During the 2016-2017 pilot period, the cameras were used for the purposes of detecting and publishing (a) count/flow of pedestrians, (b) count and flow of various vehicle types, and (c) extent to which road surface is covered with standing water (flooding). 
+- What ethical issues could arise in providing a solution here, and how could you address them?
+ - <answer>	
+      
 	
-	
-                                                                                                                                  
 <br>
     
-    
+   
  
 ##  Appendix
 
-###  Left 2 Do 
+### A. Follow Up Research
+- Additional examination to break out abc 
 - Waggle repo integrate code
 - Export the html version of the read pandas df metadata locs nodes etc 
 - file:///D:/GITHUB_Repos/SensorAnalysis/ENTER/code/output_list_sensors_data.html
 - html links reprentable via github 3rd party:  sensor.html how host ???
 - Magnetic Field - Detect heavy vehicle flow
-
 	
 
 [Top](#table-of-contents) 
