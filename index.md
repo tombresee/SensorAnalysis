@@ -30,7 +30,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 	- [Nodes](#nodes)
 	- [Metadata](#metdata)
 	- [API](#api)
--[Unsupervised Learning Methods](#unsupervised-learning-methods)
+- [Unsupervised Learning Methods](#unsupervised-learning-methods)
 - [All Project Code](#all-project-code)
 	- [Jupyter Notebooks Code](#jupyter-notebooks-code)
 - [Waggle](#waggle)
