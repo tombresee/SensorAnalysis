@@ -113,7 +113,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [In-depth Sensor Information](https://github.com/waggle-sensor/sensors)
 - [Latest Sensors](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv)
 
-  
+
 ### API 
 This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-relationships/observations-and-metrics) is no longer in service, it has been replaced with the below...
 - [Article](https://medium.com/array-of-things/array-of-things-releases-apis-for-chicago-data-enabling-applications-9bfdbe477df3)
@@ -124,6 +124,7 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - [Real Time Querying Data via API](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 - [Filtering Mechanisms Explained](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 
+	
 <br>
 
 ## Overall Project Code Methodology
@@ -140,7 +141,7 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 ### Feature Engineering
  - aaa
 		
-# Unsupervised Learning Methods
+### Unsupervised Learning Methods
  - Briefly describe the workflow of your source code, the learning methods you used, and the feature representations you chose.
  - How did you tune parameters?
  - What challenges did you encounter and how did you solve them?
@@ -148,6 +149,7 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 	
 <br>
 
+	
   
 ##  All Project Code
  
