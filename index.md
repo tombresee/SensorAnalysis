@@ -100,8 +100,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Current Sensor List](http://arrayofthings.github.io/node.html)
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 - [Common Waggle Sensors](https://github.com/waggle-sensor/sensors)
-
-
+- [The Sage Network](https://sagecontinuum.org/)
+ 
 
 #### Metadata
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
@@ -109,10 +109,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Latest Sensors](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv)
 
 
-
 #### API 
 This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-relationships/observations-and-metrics) is no longer in service, it has been replaced with the below...
-
 - [Article](https://medium.com/array-of-things/array-of-things-releases-apis-for-chicago-data-enabling-applications-9bfdbe477df3)
 - [API Page](https://arrayofthings.docs.apiary.io/#reference)
 - [Access and Use Data](https://sagecontinuum.github.io/sage-docs/docs/tutorials/accessing-data)
@@ -122,7 +120,10 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - [Filtering Mechanisms Explained](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 
 
+<br>
 
+##  All Project Code
+ 
 #### Jupyter Notebooks Code
 
 - [Main Jupyter Code NbViewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
@@ -135,13 +136,10 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - [006 - Isolation Forest](http://jekyllrb.com/)
 - [007 - Clustering](http://jekyllrb.com/)
 - [008 - Summary](http://jekyllrb.com/)
-
-
+ 
 
 <br>
-
-
-
+ 
 ##  Nodes Network
 - The nodes allow the city to track vehicle and pedestrian collisions to understand which intersections or traffic flows lead to pedestrian deaths and make urban planning changes accordingly.
 - Chicago has one of the worst incidences of asthma mortality in the country; the nodes can help monitor air pollutant levels across the city and take appropriate measures where necessary.
@@ -157,8 +155,6 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
 
 <br>
-
-
 
 
 ##  Waggle
@@ -179,7 +175,7 @@ Platform, see http://www.wa8.gl for details.
 - html links reprentable via github 3rd party:  sensor.html how host ???
 - Magnetic Field	Detect heavy vehicle flow
 
-
+ 
 [header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
 [gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
 [html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
