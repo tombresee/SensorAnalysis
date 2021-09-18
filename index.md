@@ -195,13 +195,15 @@ Platform, see http://www.wa8.gl for details.
 - The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctioned. 
 - Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
 
-<br>
-
-
+																  
+<br> 
+	
 ##  Ethical Implications
-- The 3SP-CO-1000 sensor is not intended for continuous operation at <10% RH. Extended periods (>60-90 days) of operation in <10% humidity may permanently damage the sensor. One conceivable examination point may be to see if we can predict or determine when the sensor has malfunctioned. 
-- Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
-
+- Initial privacy policy for the original AoT network are documented [here](https://arrayofthings.github.io/privacypolicy.html)
+- Although the data we examined was specifically conventional sensor KPIs, there are additional data such as images that may show people's location or walking patterns
+- [Original Civic Engagement Report](https://arrayofthings.github.io/engagement-report.html)
+	
+	
                                                                                                                                   
 <br>
     
