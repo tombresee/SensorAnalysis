@@ -34,7 +34,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [All Project Code](#all-project-code)
   - [Jupyter Notebooks Code](#jupyter-notebooks-code)
 - [Nodes Network](#nodes-network)
-- [Malfunction](#malfunction)
+- [Malfunction Information](#malfunction-information)
 - [Waggle](#waggle)
 
 <!-- /TOC -->
@@ -125,7 +125,6 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 
 <br>
 
- 
  
 ##  All Project Code
  
