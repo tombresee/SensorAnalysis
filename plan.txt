@@ -1,5 +1,17 @@
 
 
+1.  CREATE A .PKL FILE FOR EACH FULL CLEANED SENSOR ! 
+    
+    FOR SENSOR UNIQUE IN MASTER SUPER FILE
+       FILTER OUT ALL COLUMNS NOT NEEDED
+       MOVE TIMESTAMP OVER AS INDEX
+       REMOVE COLUMNS THAT BRING NOTHING TO THE TABLE (LIKE VALUE_RAW, SENSOR NAME, ETC)
+       REMOVE 'ID' REFS
+       SAVE AS .PKL (CALLING IT SENSOR1, 2, 3, 4, 5, ETC)
+
+       HOW BIG IS THE PKL WHEN YOU ARE DONE ???? X 126 
+
+
 
 * Time Series Vizes of old AoT:  https://github.com/ddiLab/CommunitySensing/blob/master/AoT-Workshop_2018/AoT_Tutorial.ipynb
 
