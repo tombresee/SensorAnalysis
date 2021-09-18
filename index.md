@@ -123,8 +123,9 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 - [Beehive Server](https://github.com/waggle-sensor/beehive-server)
 - [Real Time Querying Data via API](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 - [Filtering Mechanisms Explained](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
-
+- Unlike the bulk downloads, which provide data in daily, weekly, or monthly installments back to early 2017, the API data is focused only on recent data, going back one week. However, the data are updated more frequently, within five minutes of collection.
 	
+		
 <br>
 
 ## Overall Project Code Methodology
