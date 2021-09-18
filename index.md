@@ -30,6 +30,19 @@ September 2021
 <br>
 
 
+
+##  Motivation
+- As a continuing investigation into the world of real-world sensor analytics, we focus on a massive Internet of Things (IoT) cluster known as the 'Array of Things', hosted in the city of Chicago and part of a continuing effort for `smart city` enablement.  It is expected that smart city initiatives will progress, as Chicago takes the lead in deploying its AoT cluster.  In recent years, the smart city concept has gone from theoretical to actual live production networks.  We leverage unsupervised machine learning tactics to dive deeper into a large set of this AoT data. 
+
+_The IoT sector is expected to be a billion dollar market as advances in computing, lower cost sensors, and **5G** cellular technology progress._ 
+
+
+
+<br>
+
+
+
+
 ##  References 
 
 
@@ -148,4 +161,3 @@ Platform, see http://www.wa8.gl for details.
 
 
 <br><br>
-
