@@ -24,12 +24,13 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 - [Table of Contents](#table-of-contents)
 - [Motivation](#motivation) 
+- [What Data is Collected ?](#what-data-is-collected-?) 
+- [Data Deep Dive](#data-deep-dive) 
 - [References](#references) 
 - [Nodes Network](#nodes-network) 
 - [Malfunction](#malfunction) 
-- [What Data is Collected ?](#what-data-is-collected-?) 
 - [Waggle](#waggle) 
-- [Left 2 Do](#left-2-do) 
+
 <!-- /TOC -->
 
 <br>
@@ -46,7 +47,25 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <br>
 
 
+##  What Data is Collected in the AoT Cluster ?  
+- The sensor nodes measure items such as temperature, barometric pressure, light, vibration, magnetic fluctation, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic.  Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water. 
+- The Array of Things project is inherently interested in monitoring urban environment and activity, and not necessarily specific individuals.  The base technology and policy have been designed to specifically minimize any potential collection of data about individuals, so privacy protection is built into the design of the sensors and into the operating policies.  The goal is extensive smart city granular data.  
 
+<br>
+ 
+ 
+ ##  Data Deep Dive
+
+- The 
+ 
+ 
+
+
+<br>
+ 
+
+ 
+ 
 
 ##  References 
 
@@ -129,11 +148,7 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 <br>
 
 
-##  What Data is Collected ? 
-- The nodes will initially measure temperature, barometric pressure, light, vibration, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic. Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water
-- The Array of Things project is interested in monitoring urban environment and activity, not individuals. In fact, the technology and policy have been designed to specifically minimize any potential collection of data about individuals, so privacy protection is built into the design of the sensors and into the operating policies
 
-<br>
 
 ##  Waggle
 -  The Waggle Platform is an open source software and hardware platform
