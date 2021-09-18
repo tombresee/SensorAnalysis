@@ -51,7 +51,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - _The IoT sector is expected to be a billion dollar market as advances in computing, lower cost sensors, and **5G** cellular technology progress._
   - We anticipate more and more IoT-related AI research is done into subjects such as sensor parameter key performance indicator (KPI) anomaly detection, sensor predictive maintenance, sensor malfunction estimation, and sensor status.
 - Our investigation revolved around clustering sensor data KPI values into 'normal' vs 'anomalous', as well as comparing individual cluster node data with other nodes. Specific unsupervised learning techniques involved are isolation forest, DBSCAN, <insert>, and <insert> clustering. 
-
+- Truly real-world, non-synthetic 
 	
 <br>
 
