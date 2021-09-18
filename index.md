@@ -33,9 +33,10 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
   - [API](#api)
 - [All Project Code](#all-project-code)
   - [Jupyter Notebooks Code](#jupyter-notebooks-code)
+- [Waggle](#waggle)
 - [Nodes Network](#nodes-network)
 - [Malfunction Information](#malfunction-information)
-- [Waggle](#waggle)
+- [Appendix](#appendix)
 
 <!-- /TOC -->
 
@@ -168,7 +169,6 @@ Platform, see http://www.wa8.gl for details.
 - Determining when the temperature sensor for instance has stopped working effectively, or is giving unusual results (which one could classify as an anomaly or stream of anomalies). 
 
 <br>
-
 
 
  
