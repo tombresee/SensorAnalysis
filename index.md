@@ -30,6 +30,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 	- [Nodes](#nodes)
 	- [Metadata](#metdata)
 	- [API](#api)
+-[Unsupervised Learning Methods](#unsupervised-learning-methods)
 - [All Project Code](#all-project-code)
 	- [Jupyter Notebooks Code](#jupyter-notebooks-code)
 - [Waggle](#waggle)
@@ -126,6 +127,14 @@ This (https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-rela
 <br>
 
   
+# Unsupervised Learning Methods
+ - Briefly describe the workflow of your source code, the learning methods you used, and the feature representations you chose.
+ - How did you tune parameters?
+ - What challenges did you encounter and how did you solve them?
+
+	
+<br>
+
   
 #  All Project Code
  
