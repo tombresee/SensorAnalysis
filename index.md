@@ -23,19 +23,19 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Table of Contents](#table-of-contents)
-- [Motivation](#motivation) 
-- [What Data is Collected ?](#what-data-is-collected-?) 
-- [Data Deep Dive](#data-deep-dive) 
-- [References](#references) 
-  - [Technical Background and Overview](#technical-background-and-overview) 
+- [Motivation](#motivation)
+- [What Data is Collected ?](#what-data-is-collected-?)
+- [Data Deep Dive](#data-deep-dive)
+- [References](#references)
+  - [Technical Background and Overview](#technical-background-and-overview)
   - [Nodes](#nodes)
   - [Metadata](#metdata)
   - [API](#api)
 - [All Project Code](#all-project-code)
   - [Jupyter Notebooks Code](#jupyter-notebooks-code)
-- [Nodes Network](#nodes-network) 
-- [Malfunction](#malfunction) 
-- [Waggle](#waggle) 
+- [Nodes Network](#nodes-network)
+- [Malfunction](#malfunction)
+- [Waggle](#waggle)
 
 <!-- /TOC -->
 
