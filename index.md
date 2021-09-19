@@ -215,7 +215,10 @@ Platform, see http://www.wa8.gl for details.
 <br>
     
 ## Challenges
-- abc
+- 'id' column
+- massive size 
+- Paradox: When you have a large data set, what window size do you use ? 
+- 
 	
 	
 <br>
