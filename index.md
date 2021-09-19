@@ -233,8 +233,10 @@ Platform, see http://www.wa8.gl for details.
 ##  Appendix
 
 ### A. Follow Up Research
-- Additional examination to break out abc 
-
+- Deeper examinination into time-series clustering
+- Deeper analysis of how to effectively do anomaly detection on time-series where the data is not necessarily cyclic, periodic, or un'wavering'
+- Developing a sliding-window based approach, to use the real-time API to determine update anomalies over the course of time (a truly dynamic anomaly detection system)
+	
 	
 
 
