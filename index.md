@@ -219,12 +219,12 @@ Platform, see http://www.wa8.gl for details.
 <br>
     
 ## Challenges
-- 'id' column
-- massive size 
+- The dataset itself just to filter through it is time-consuming due to its size 
+- Time-series anomaly detection (for univariate streams) is not always easy for anomaly detection analysis, and the size of the actual window under examination makes a substantial difference in results sometimes 
 - Paradox: When you have a large data set, what window size do you use ? 
-- 
-	
-	
+- What is anomaly is heavily dependent on context
+- Tuning parameters for DBSCAN is sometimes limited, due to the need for subject-matter expertise of the actual dataset itself
+		
 <br>
 	
  
