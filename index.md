@@ -147,7 +147,11 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 		
 ### Unsupervised Learning Methods
  - Briefly describe the workflow of your source code, the learning methods you used, and the feature representations you chose.
- - How did you tune parameters?
+ - **Isolation Forest** - 
+ - **DBSCAN**
+   - The good news is that there are only two hyperparameters to tune
+   - How did you tune parameters?
+ - **More**
  - What challenges did you encounter and how did you solve them?
  - Interesting:  The Jan/Feb 2019 cold wave (polar vortex) was so bad that smashed into the USA, it got its own wikipedia [link](https://en.wikipedia.org/wiki/January%E2%80%93February_2019_North_American_cold_wave)
 	
