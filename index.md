@@ -46,6 +46,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <br>
 
 ##  Motivation
+- The Array of Things (AoT) Chicago sensor network is an extensive cluster with software-defined units performing multiple sensing duties, and we have used Folium (python geo-mapper) to plot locations [here](https://rawcdn.githack.com/tombresee/SensorAnalysis/fa16bdfa1e93ac65a5494021f4ebc9339e8ec774/ENTER/code/node_locations_visualized/index.html)
 - The supervised machine learning techniques were initially associated with the first dataset (the human activity recognization HAR dataset). This section details mainly the second part, which was to identify unsupervised machine learning techniques for this additional dataset. 
 - As a continuing investigation into the world of real-world sensor analytics, we focus on a massive Internet of Things (IoT) cluster known as the [Array of Things](http://arrayofthings.github.io/), hosted in the city of Chicago and part of a continuing effort for `smart city` enablement.  It is expected that smart city initiatives will progress, as Chicago takes the lead in deploying its AoT cluster.  In recent years, the smart city concept has gone from theoretical to actual live production networks.  We leverage unsupervised machine learning tactics to dive deeper into a large set of this AoT data.
 - _The IoT sector is expected to be a billion dollar market as advances in computing, lower cost sensors, and **5G** cellular technology progress._
