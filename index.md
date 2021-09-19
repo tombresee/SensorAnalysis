@@ -224,7 +224,9 @@ Platform, see http://www.wa8.gl for details.
 - Paradox: When you have a large data set, what window size do you use ? 
 - What is anomaly is heavily dependent on context
 - Tuning parameters for DBSCAN is sometimes limited, due to the need for subject-matter expertise of the actual dataset itself
-		
+- High computational costs for algorithms such as DBSCAN - High computational expense of average O(n log(n)) coming from a need to execute a neighbourhood query for each point; killing my time...
+	
+	
 <br>
 	
  
