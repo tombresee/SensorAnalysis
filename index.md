@@ -167,7 +167,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
    - The good news is that there are only two hyperparameters to tune
    - How did you tune parameters?
    - Image below of two month window (closeup image can be found [here](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/images/single_subsensor_temp_data_two_month_dbscan_clusters.png))
-	
 
 ![sensor](images/single_subsensor_temp_data_two_month_dbscan_clusters.png)
 <p align='center'><i>Fig: DBSCAN Two-Month Window Temperature Anomalies</i></p>
