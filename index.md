@@ -245,16 +245,14 @@ Platform, see http://www.wa8.gl for details.
 <br>
     
 ## Challenges
-- The dataset itself just to filter through it is time-consuming due to its size 
-- Time-series anomaly detection (for univariate streams) is not always easy for anomaly detection analysis, and the size of the actual window under examination makes a substantial difference in results sometimes 
-- Paradox: When you have a large data set, what window size do you use ? 
-- What is anomaly is heavily dependent on context
-- Tuning parameters for DBSCAN is sometimes limited, due to the need for subject-matter expertise of the actual dataset itself
-- High computational costs for algorithms such as DBSCAN - High computational expense of average O(n log(n)) coming from a need to execute a neighbourhood query for each point; killing my time...also, the quality of the clustering results strongly depends on the measure you choose to compare the time-series (the standard euclidean distance measure may not be ideal for time-series, maybe)
-- Tuning DBSCAN is not an easy thing
-- Filtering:  There were some sensors that flat-lined at some point for a window of time (conventional malfunction), these windows were documented 
+**File Size** -- The massive size of the core csv datafile (over 300GB) was difficult to parse through due to the memory size requirements, including the limitation of pandas. All efforts were made to parallel process the files via multiple PC cores.  In addition, Dask was used to initially filter the file due to its ability to handle massive file sizes.  Indexing was done to speed up process. The dataset itself just to filter through it is time-consuming due to its size.  This resulted in many cycles of time lost. 
+
+**Complexity** -- Time-series anomaly detection (for univariate streams) is not always easy for anomaly detection analysis, and the size of the actual window under examination makes a substantial difference in results sometimes. Paradox: When you have a large data set, what window size do you use ?  AD is heavily dependent on window size and window placement. 
 	
+**UML** -- Tuning parameters for DBSCAN is sometimes limited, due to the need for subject-matter expertise of the actual dataset itself.  High computational costs for algorithms such as DBSCAN - High computational expense of average O(n log(n)) coming from a need to execute a neighbourhood query for each point; killing my time...also, the quality of the clustering results strongly depends on the measure you choose to compare the time-series (the standard euclidean distance measure may not be ideal for time-series, maybe). 
 	
+**Real-World Issues** -- Filtering: There were some sensors that flat-lined at some point for a window of time (conventional malfunction), these windows were documented 
+		
 <br>
 	
  
