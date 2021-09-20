@@ -54,14 +54,12 @@ As a continuing investigation into the realm of real-world sensor analytics, we 
 <br>
 
 ##  Philosophy
-- Time series machine learning examination is still really being developed, new methods are being created on a yearly basis.  This dataset allows one to create whole new approaches on how to deal with the challenging cases of longitudinal data and time-series for sensors.  Time series outputs depends on many factors (window size, algorithm, pre-filtering assumptions, etc), part of the exciting part is developing whole new ways of approaching this problem, given that subject matter expertise of the system is a key component.  It is estimated that with the continued rollout of 5G technologies, IoT processing and examination will skyrocket, give IoT can ride the 5G backhaul that will soon become ubiquitous...
+Time series dataset machine learning examination is still really being developed, new methods are being created on a yearly basis.  This dataset allows one to create whole new approaches on how to deal with the challenging cases of longitudinal data and time-series for sensors.  Time series outputs depends on many factors (window size, algorithm, pre-filtering assumptions, etc), part of the exciting part is developing whole new ways of approaching this problem, given that subject matter expertise of the system is a key component.  It is estimated that with the continued rollout of **5G cellular technologies**, IoT processing and examination will skyrocket, give IoT can ride the 5G backhaul that will soon become a ubiquitous element of society...
 	
 	
 <br>
  
   
-	
-
 
 ##  What Data is Collected in the AoT Cluster ?  
 - The sensor nodes measure items such as temperature, barometric pressure, light, vibration, magnetic fluctation, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic.  Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water. 
