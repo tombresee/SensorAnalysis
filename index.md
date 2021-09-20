@@ -163,28 +163,29 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 ### Unsupervised Learning Methods
 
 We will describe the workflow of the source code, the leaning methods used, and the feature representation used. 
-- Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and abc
-**Isolation Forest**
 
+*Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and abc.*
+	
+**Isolation Forest**
+- abc 
+	
 **DBSCAN**
-- It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an alg like DBSCAN eries data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. 	
-- Optimal eps was abc 	
-- Image below of two month window (closeup image can be found [here](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/images/single_subsensor_temp_data_two_month_dbscan_clusters.png))
+It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an algorithm like DBSCAN for time series data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. Optimal eps was abc. 
+
+Image below of two month window (closeup image can be found [here](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/images/single_subsensor_temp_data_two_month_dbscan_clusters.png))
 
 ![sensor](images/single_subsensor_temp_data_two_month_dbscan_clusters.png)
 <p align='center'><i>Fig: DBSCAN Two-Month Window Temperature Anomalies</i></p>
- - Tuning: 
- - abc 
 
-		
-- **Challenges encountered and how we solved them:** 
+**Tuning:**
+- abc
+	
+**Challenges encountered and how we solved them:** 
 - Interesting:  The Jan/Feb 2019 cold wave (polar vortex) was so bad that smashed into the USA, it got its own wikipedia page [link](https://en.wikipedia.org/wiki/January%E2%80%93February_2019_North_American_cold_wave)
 - Tuning DBDSCAN is not an easy thing, lot of trial and error and tuning
 - Window size matters alot, if you grab too wide, you miss nuance.  If you choose to small, you pick up abc.  But anomalies are contextual, an anomaly in Jan (window two months), may not show up if window was four months... So it is all 'relative'
 	
 <br>
-
-
   
 ##  All Project Code
  
