@@ -161,16 +161,14 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
  - aaa
 		
 ### Unsupervised Learning Methods
-
 We will describe the workflow of the source code, the leaning methods used, and the feature representation used. 
-
 *Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and abc.*
 	
 **Isolation Forest**
-- abc 
+abc 
 	
 **DBSCAN**
-It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an algorithm like DBSCAN for time series data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. Optimal eps was abc. 
+> It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an algorithm like DBSCAN for time series data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. Optimal eps was abc. 
 
 Image below of two month window (closeup image can be found [here](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/images/single_subsensor_temp_data_two_month_dbscan_clusters.png))
 
