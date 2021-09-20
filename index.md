@@ -253,9 +253,8 @@ Platform, see http://www.wa8.gl for details.
 	
 **Real-World Issues** -- Filtering: There were some sensors that flat-lined at some point for a window of time (conventional malfunction), these windows were documented 
 	
-**Plotting** -- It should be understood that given the granular nature of the streaming data (every 25-30s), a single dimension single variate parameter results in over 1M observations per year.  Thus plotting in larger window sizes required using high level plotting libraries such as Matplotlib/Seaborn, but for shorter timeframes where real-time granularity is necessary, Altair and Plotly were used. 
-
-	
+**Plotting** -- It should be understood that given the granular nature of the streaming data (every 25-30s), a single dimension single variate parameter results in over 1M observations per year.  Thus plotting in larger window sizes required using high level plotting libraries such as Matplotlib/Seaborn, but for shorter timeframes where real-time granularity was necessary, Altair and Plotly were used. Plotly was also used in some cases so that the Dash version of the plots could be plotted online (heroku). 
+		
 <br>
 	
  
