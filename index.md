@@ -145,17 +145,8 @@ Time series dataset machine learning examination is still really being developed
 ## Overall Project Code Methodology
 
 ### Reading Dataset
- - Leveraged [Dask](https://dask.org/) for the initial assimilation of the data, due to massive size 
- - Rows that contained odd non-float values (id values)
- - xx                    sensor         parameter     value_hrf
- - #2018-03-06 22:14:56  metsense id  011cd1141800
-
-### Filtering Data
- - abc
+The data file was in compressed tar format.  This main file was downloaded, and the archive was untared, which produced a directory.  We unpacked the data archive, and the archive decompressed to a CSV file about 10 times its original size (ending up being over 300GB in memory size).  We leveraged [Dask](https://dask.org/) for the initial assimilation of the data, due to massive size.  Rows that contined non-float id values (used as section identifiers) were filtered out.  Initially, we created one single dataframe that encompassed **one** of the 126 nodes information, and exported that as csv, for ease in initial investigation. 
 	
-### Feature Engineering
- - aaa
-		
 ### Unsupervised Learning Methods
 We will describe the workflow of the source code, the leaning methods used, and the feature representation used. 
 *Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and abc.*
