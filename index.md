@@ -64,15 +64,17 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <br>
  
 
-![N3 Loss](https://github.com/tombresee/SensorAnalysis/blob/main/ENTER/images/single_subsensor_temp_data_two_month.png)
-<p align='center'><b>Figure E3</b> <i>Version 3</i> Switched from Adam to AdamW optimizer</p>
-	
-	
+
 
 ##  What Data is Collected in the AoT Cluster ?  
 - The sensor nodes measure items such as temperature, barometric pressure, light, vibration, magnetic fluctation, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic.  Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water. 
-- The Array of Things project is inherently interested in monitoring urban environment and activity, and not necessarily specific individuals.  The base technology and policy have been designed to specifically minimize any potential collection of data about individuals, so privacy protection is built into the design of the sensors and into the operating policies.  The goal is extensive smart city granular data.  
+- The Array of Things project is inherently interested in monitoring urban environment and activity, and not necessarily specific individuals.  The base technology and policy have been designed to specifically minimize any potential collection of data about individuals, so privacy protection is built into the design of the sensors and into the operating policies.  The goal is extensive smart city granular data. 
+- Example of a calculated window for a single sensor subsystem's temperature data shown below
 
+![sensor single](images/single_subsensor_temp_data_two_month.png)
+<p align='center'><b>Figure:</b> <i>Single Sensor Two Month Window</i></p>
+	
+	
 <br>
  
 
