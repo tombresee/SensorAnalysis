@@ -59,7 +59,7 @@ Time series dataset machine learning examination is still really being developed
 	
 <br>
  
-  
+ 
 
 ##  What Data is Collected in the AoT Cluster ?  
 - The sensor nodes measure items such as temperature, barometric pressure, light, vibration, magnetic fluctation, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic.  Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water. 
@@ -76,9 +76,10 @@ Time series dataset machine learning examination is still really being developed
 
 ## Data Deep Dive
  
-- The main dataset is consolidated into one massive compressed file and hosted [here](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)
+- The main dataset is consolidated into one massive (tar) compressed file and hosted [here](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)
   - **filename** - AoT_Chicago.complete.latest.tar 
-  - **uncompressed size** - 320 GB
+  - **uncompressed file size** - **320 GB** 
+  - **compressed file size** - **33.73 GB**
   - **uncompressed file type** - .csv
   - **data date range** - March 2018 through April 2021 is the master time range represented in the data 
   - **granularity** - Every sensor parameter records parameter data every **25 seconds**
