@@ -63,7 +63,9 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 	
 <br>
  
-	
+
+![N3 Loss](https://github.com/tombresee/SensorAnalysis/blob/main/ENTER/images/single_subsensor_temp_data_two_month.png)
+<p align='center'><b>Figure E3</b> <i>Version 3</i> Switched from Adam to AdamW optimizer</p>
 	
 	
 
