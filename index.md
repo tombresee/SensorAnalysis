@@ -73,7 +73,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 	
 
 ![sensor single](images/single_subsensor_temp_data_two_month.png)
-<p align='center'><b>Figure:</b> <i>Single Sensor Two Month Window</i></p>
+<p align='center'><i>Figure: Single Sensor Two Month Window</i></p>
 	
 	
 <br>
