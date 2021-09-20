@@ -162,18 +162,23 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 		
 ### Unsupervised Learning Methods
  - Briefly describe the workflow of your source code, the learning methods you used, and the feature representations you chose.
+ - Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and abc
  - **Isolation Forest** - 
  - **DBSCAN**
    - The good news is that there are only two hyperparameters to tune
    - How did you tune parameters?
+   - Optimal eps was abc 	
    - Image below of two month window (closeup image can be found [here](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/images/single_subsensor_temp_data_two_month_dbscan_clusters.png))
 
 ![sensor](images/single_subsensor_temp_data_two_month_dbscan_clusters.png)
 <p align='center'><i>Fig: DBSCAN Two-Month Window Temperature Anomalies</i></p>
 	
- - **More**
- - What challenges did you encounter and how did you solve them?
- - Interesting:  The Jan/Feb 2019 cold wave (polar vortex) was so bad that smashed into the USA, it got its own wikipedia [link](https://en.wikipedia.org/wiki/January%E2%80%93February_2019_North_American_cold_wave)
+
+ - Challenges encountered and how we solved them: 
+ - Interesting:  The Jan/Feb 2019 cold wave (polar vortex) was so bad that smashed into the USA, it got its own wikipedia page [link](https://en.wikipedia.org/wiki/January%E2%80%93February_2019_North_American_cold_wave)
+ - Tuning DBDSCAN is not an easy thing, lot of trial and error and tuning
+ - Window size matters alot, if you grab too wide, you miss nuance.  If you choose to small, you pick up abc.  But anomalies are contextual, an anomaly in Jan (window two months), may not show up if window was four months... So it is all 'relative'
+
 	
 <br>
 
@@ -245,7 +250,8 @@ Platform, see http://www.wa8.gl for details.
 - What is anomaly is heavily dependent on context
 - Tuning parameters for DBSCAN is sometimes limited, due to the need for subject-matter expertise of the actual dataset itself
 - High computational costs for algorithms such as DBSCAN - High computational expense of average O(n log(n)) coming from a need to execute a neighbourhood query for each point; killing my time...also, the quality of the clustering results strongly depends on the measure you choose to compare the time-series (the standard euclidean distance measure may not be ideal for time-series, maybe)
-	
+- Tuning DBSCAN is not an easy thing
+
 	
 <br>
 	
