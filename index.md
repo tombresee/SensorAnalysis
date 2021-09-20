@@ -166,13 +166,17 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
  - **DBSCAN**
    - The good news is that there are only two hyperparameters to tune
    - How did you tune parameters?
+
+![sensor single](images/single_subsensor_temp_data_two_month.png)
+<p align='center'><i>Fig: DBSCAN Two-Month Window Temperature Anomalies</i></p>
+	
  - **More**
  - What challenges did you encounter and how did you solve them?
  - Interesting:  The Jan/Feb 2019 cold wave (polar vortex) was so bad that smashed into the USA, it got its own wikipedia [link](https://en.wikipedia.org/wiki/January%E2%80%93February_2019_North_American_cold_wave)
 	
 <br>
 
-	
+
   
 ##  All Project Code
  
