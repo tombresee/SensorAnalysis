@@ -90,17 +90,17 @@ Time series dataset machine learning examination is still really being developed
   - **granularity of data** - 25s increments for multiple sensors, multiple sensor substems, and multiple parameters
   - **total number of unique nodes** - 126
   - many nodes include chemical sensors, Alphasense OPN-N2 air quality sensors, and/or Plantower PMS7003 air quality sensors (data breaks this out by C, A, and P designator)
-  - **important variables** 
-   - sensor node id 
-   - subsystem type of sensor  
-   - sensor parameter type (temperature, barometric pressure, etc)
-   - sensor parameter data value (raw)
-   - sensor parameter data value (human readable) - the most important value for analysis
+- **important variables** 
+    - sensor node id 
+    - subsystem type of sensor  
+    - sensor parameter type (temperature, barometric pressure, etc)
+    - sensor parameter data value (raw)
+    - sensor parameter data value (human readable) - the most important value for analysis
 - Note:  Sensors were initially deployed in waves, not all of them were turned 'up' at the exact same time...
 - In addition, there is a more 'real-time' data API service available to pull the last week of data
-  - This is found via the the API link: https://data.sagecontinuum.org/api
-  - We have created python scripts to pull this data on a per node, per sensor, per parameter level
-  - Detailed usage suggestions contained [here](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md)
+   - This is found via the the API link: https://data.sagecontinuum.org/api
+   - We have created python scripts to pull this data on a per node, per sensor, per parameter level
+   - Detailed usage suggestions contained [here](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md)
 
 <br>
 
