@@ -85,9 +85,7 @@ Time series dataset machine learning examination is still really being developed
   - **data date range** - March 2018 through April 2021 is the master time range represented in the data 
   - **granularity** - Every sensor parameter records parameter data every **25 seconds**
   - **raw rows of data** - 4 billion + 
-  - **time period of data**
-    - 2018-03-06 22:14:56 -> 2021-03-22 05:18:42
-    - representing 1,112 days, i.e. 3 years, 16 days
+  - **time period of data** - 2018-03-06 22:14:56 through 2021-03-22 05:18:42; representing 1,112 days, i.e. 3 years, 16 days
   - **granularity of data** - 25s increments for multiple sensors, multiple sensor substems, and multiple parameters
   - **total number of unique nodes** - 126
   - many nodes include chemical sensors, Alphasense OPN-N2 air quality sensors, and/or Plantower PMS7003 air quality sensors (data breaks this out by C, A, and P designator)
@@ -99,9 +97,8 @@ Time series dataset machine learning examination is still really being developed
    - sensor parameter data value (human readable) - the most important value for analysis
 - Note:  Sensors were initially deployed in waves, not all of them were turned 'up' at the exact same time...
 - In addition, there is a more 'real-time' data API service available to pull the last week of data
-  - This is found via the the below API link
-    - https://data.sagecontinuum.org/api
-   - We have created python scripts to pull this data on a per node, per sensor, per parameter level
+  - This is found via the the API link: https://data.sagecontinuum.org/api
+  - We have created python scripts to pull this data on a per node, per sensor, per parameter level
   - Detailed usage suggestions contained [here](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md)
 
 <br>
