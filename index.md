@@ -74,7 +74,7 @@ Time series dataset machine learning examination is still really being developed
 <br>
  
 
-## Data Deep Dive
+## Data Source Deep Dive
  
 - The main dataset is consolidated into one massive (tar) compressed file and hosted [here](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php)
   - **filename** - AoT_Chicago.complete.latest.tar 
@@ -84,6 +84,7 @@ Time series dataset machine learning examination is still really being developed
   - **data date range** - March 2018 through April 2021 is the master time range represented in the data 
   - **granularity** - Every sensor parameter records parameter data every **25 seconds**
   - **raw rows of data** - 4 billion + 
+  - **time period of data** - 2018-03-06 22:14:56 through 2021-03-22 05:18:42 (representing 1,112 days, i.e. 3 years, 16 days)
   - **important variables:** 
     - sensor node id 
     - subsystem type of sensor  
@@ -144,6 +145,12 @@ Time series dataset machine learning examination is still really being developed
 
 ## Overall Project Code Methodology
 
+Briefly describe the workflow of your source code, the learning methods you used, and the feature representations you chose.
+How did you tune parameters?
+What challenges did you encounter and how did you solve them?
+
+
+	
 ### Reading Dataset
 The data file was in compressed tar format.  This main file was downloaded, and the archive was untared, which produced a directory.  We unpacked the data archive, and the archive decompressed to a CSV file about 10 times its original size (ending up being over 300GB in memory size).  We leveraged [Dask](https://dask.org/) for the initial assimilation of the data, due to massive size.  Rows that contined non-float id values (used as section identifiers) were filtered out.  Initially, we created one single dataframe that encompassed **one** of the 126 nodes information, and exported that as csv, for ease in initial investigation. 
 	
