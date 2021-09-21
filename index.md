@@ -89,6 +89,7 @@ Time series dataset machine learning examination is still really being developed
      - 2018-03-06 22:14:56 -> 2021-03-22 05:18:42
      - representing 1,112 days, i.e. 3 years, 16 days
   - **granularity of data** - 25s increments for multiple sensors, multiple sensor substems, and multiple parameters
+  - **total number of unique nodes** - 126
   - **important variables** 
     - sensor node id 
     - subsystem type of sensor  
