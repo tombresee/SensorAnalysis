@@ -85,7 +85,7 @@ Time series dataset machine learning examination is still really being developed
   - **granularity** - Every sensor parameter records parameter data every **25 seconds**
   - **raw rows of data** - 4 billion + 
   - **time period of data** - 
-     - 2018-03-06 22:14:56 through 2021-03-22 05:18:42
+     - 2018-03-06 22:14:56 -> 2021-03-22 05:18:42
      - representing 1,112 days, i.e. 3 years, 16 days
   - **important variables:** 
     - sensor node id 
