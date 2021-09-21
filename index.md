@@ -274,7 +274,6 @@ Periodically, some sensors would have windows of missing values (temperature in 
 
 	
 <br><br>
-
   
 [header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
 [gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
