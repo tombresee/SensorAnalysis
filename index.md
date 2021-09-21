@@ -264,11 +264,11 @@ Platform, see http://www.wa8.gl for details.
 - Developing a sliding-window based approach, to use the real-time API to determine update anomalies over the course of time (a truly dynamic anomaly detection system)
 	
 ### B. Sensor Malfunction Example
-- Missing data window exhibilited below
-	
-	
-	
+Periodically, some sensors would have windows of missing values (temperature in this sensor's case).  It is difficult to determine if this was due to potential sensor malfunction (or perhaps software update, etc).  
 
+![sensor](images/single_subsensor_temp_data_two_month_dbscan_clusters.png)
+<p align='center'><i>Fig: DBSCAN Two-Month Window Temperature Anomalies</i></p>
+	
 
 [Top](#table-of-contents) 
 
