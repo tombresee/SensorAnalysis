@@ -123,18 +123,15 @@ The `data.csv.gz` file is a compressed CSV with the following columns:
 * `value_raw` - Raw measurement value from sensor
 * `value_hrf` - Converted, "human readable" value from sensor
 
-These fields will always be provided as a header, for example:
+These fields will always be provided as a header (example): 
 ```
 timestamp,node_id,subsystem,sensor,parameter,value_raw,value_hrf
-2017/09/09 22:12:44,001e0610ba8f,lightsense,hih4030,humidity,NA,32.18
-2017/09/09 22:12:44,001e0610ba8f,lightsense,hih4030,temperature,NA,48.55
-2017/09/09 22:12:44,001e0610ba8f,lightsense,ml8511,intensity,9643,NA
-2017/09/09 22:12:44,001e0610ba8f,lightsense,tmp421,temperature,NA,43.81
-2017/09/09 22:12:44,001e0610ba8f,metsense,hih4030,humidity,450,NA
-2017/09/09 22:12:44,001e0610ba8f,metsense,htu21d,humidity,NA,41.15
-2017/09/09 22:12:44,001e0610ba8f,metsense,htu21d,temperature,NA,24.1
-2017/09/09 22:12:44,001e0610ba8f,metsense,metsense,id,00001814B7E8,00001814B7E8
-2017/09/09 22:12:44,001e0610ba8f,metsense,pr103j2,temperature,839,NA
+2019/09/09 22:12:44,001e0610ba8f,lightsense,hih4030,humidity,NA,32.18
+2019/09/09 22:12:44,001e0610ba8f,lightsense,hih4030,temperature,NA,48.55
+2019/09/09 22:12:44,001e0610ba8f,lightsense,ml8511,intensity,9643,NA
+2019/09/09 22:12:44,001e0610ba8f,lightsense,tmp421,temperature,NA,43.81
+2019/09/09 22:12:44,001e0610ba8f,metsense,hih4030,humidity,450,NA
+2019/09/09 22:12:44,001e0610ba8f,metsense,htu21d,humidity,NA,41.15
 ```
 
 _Sensor data is ordered by ascending timestamp_
@@ -149,14 +146,14 @@ The node metadata provides additional information about each of the AoT project'
 file is a CSV with the following fields:
 
 * `node_id` - ID of node.
-* `project_id` - ID of project which manages node.
-* `vsn` - Public name for node. The VSN is visible on the physical enclosure.
-* `address` - Street address of node installation.
-* `lat` - Latitude of node installation.
-* `lon` - Longitude of node installation.
-* `description` - More detailed description of node's build and configuration.
-* `start_timestamp` - Starting timestamp of node installation.
-* `end_timestamp` - Ending timestamp of node installation.
+* `project_id` - ID of project which manages node
+* `vsn` - Public name for node. The VSN is visible on the physical enclosure
+* `address` - Street address of node installation
+* `lat` - Latitude of node installation
+* `lon` - Longitude of node installation
+* `description` - More detailed description of node's build and configuration
+* `start_timestamp` - Starting timestamp of node installation
+* `end_timestamp` - Ending timestamp of node installation
 
 These fields will always be provided as a header, for example:
 ```
@@ -170,30 +167,29 @@ node_id,project_id,vsn,address,lat,lon,description,start_timestamp,end_timestamp
 Additional details about a node are contained in the description field. The letters
 inside the brackets `[ ]` indicate:
 
-* `C` - Node is equipped with chemical sensors.
-* `A` - Node is equipped with Alphasense OPN-N2 air quality sensor.
-* `P` - Node is equipped with Plantower PMS7003 air quality sensor.
+* `C` - Node is equipped with chemical sensors
+* `A` - Node is equipped with Alphasense OPN-N2 air quality sensor
+* `P` - Node is equipped with Plantower PMS7003 air quality sensor
 
 The **sensor metadata** provides additional information about each of the sensors published
 by the project. This file is a CSV with the following fields:
 
-* `ontology` - Ontology of measurement.
-* `subsystem` - Subsystem containing sensor.
-* `sensor` - Sensor name.
-* `parameter` - Sensor parameter.
-* `hrf_unit` - Physical units of HRF value.
-* `hrf_minval` - Minimum HRF value according to datasheet. Used as lower bound in range filter.
-* `hrf_maxval` - Maximum HRF value according to datasheet. Used as upper bound in range filter.
-* `datasheet` - Reference to sensor's datasheet.
+* `ontology` - Ontology of measurement
+* `subsystem` - Subsystem containing sensor
+* `sensor` - Sensor name
+* `parameter` - Sensor parameter
+* `hrf_unit` - Physical units of HRF value
+* `hrf_minval` - Minimum HRF value according to datasheet. Used as lower bound in range filter
+* `hrf_maxval` - Maximum HRF value according to datasheet. Used as upper bound in range filter
+* `datasheet` - Reference to sensor's datasheet
 
-These fields will always be provided as a header, for example:
+These fields will always be provided as a header (example):
 ```
 ontology,subsystem,sensor,parameter,hrf_unit,hrf_minval,hrf_maxval,datasheet
 /sensing/meteorology/pressure,metsense,bmp180,pressure,hPa,300,1100,"https://github.com/waggle-sensor/sensors/blob/master/sensors/airsense/bmp180.pdf"
 /sensing/meteorology/temperature,metsense,bmp180,temperature,C,-40,125,"https://github.com/waggle-sensor/sensors/blob/master/sensors/airsense/bmp180.pdf"
 /sensing/meteorology/humidity,metsense,hih4030,humidity,RH,0,100,"https://github.com/waggle-sensor/sensors/blob/master/sensors/airsense/htu4030.pdf"
 /sensing/meteorology/humidity,metsense,htu21d,humidity,RH,0,100,"https://github.com/waggle-sensor/sensors/blob/master/sensors/airsense/htu21d.pdf"
-/sensing/meteorology/temperature,metsense,htu21d,temperature,C,-40,125,"https://github.com/waggle-sensor/sensors/blob/master/sensors/airsense/htu21d.pdf"
 ```
 
 More in-depth information about each sensor can be found at: https://github.com/waggle-sensor/sensors
@@ -201,12 +197,12 @@ More in-depth information about each sensor can be found at: https://github.com/
 The **provenance metadata** provides additional information about the origin of the
 project digest. This file is a CSV with the following fields:
 
-* `data_format_version` - Data format version.
-* `project_id` - Project ID.
-* `data_start_date` - Minimum possible publishing UTC timestamp.
-* `data_end_date` - Maximum possible publishing UTC timestamp. If no explicit date exists, the creation date is used.
-* `creation_date` - UTC timestamp this digest was created.
-* `url` - URL where this digest was provided.
+* `data_format_version` - Data format version
+* `project_id` - Project ID
+* `data_start_date` - Minimum possible publishing UTC timestamp
+* `data_end_date` - Maximum possible publishing UTC timestamp. If no explicit date exists, the creation date is used
+* `creation_date` - UTC timestamp this digest was created
+* `url` - URL where this digest was provided
 
 These fields will always be provide as a header, for example:
 ```
