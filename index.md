@@ -97,6 +97,7 @@ Time series dataset machine learning examination is still really being developed
     - sensor parameter type (temperature, barometric pressure, etc)
     - sensor parameter data value (raw)
     - sensor parameter data value (human readable) - the most important value for analysis
+- Note:  Sensors were initially deployed in waves, not all of them were turned 'up' at the exact same time...
 - In addition, there is a more 'real-time' data API service available to pull the last week of data
   - This is found via the the below API link
     - https://data.sagecontinuum.org/api
