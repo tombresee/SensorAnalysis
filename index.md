@@ -75,6 +75,10 @@ Time series dataset machine learning examination is still really being developed
 	
 <br>
  
+	
+https://github.com/waggle-sensor/sensors/blob/master/README.md
+	
+	
 
 ## Data Source Deep Dive
  
