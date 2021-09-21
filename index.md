@@ -42,7 +42,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
   	- [A. Follow Up Research](#a-follow-up-research)
   	- [B. Sensor Malfunction Example](#b-sensor-malfunction-example)
 	
-
 <!-- /TOC -->
 
 <br>
