@@ -266,8 +266,8 @@ Platform, see http://www.wa8.gl for details.
 ### B. Sensor Malfunction Example
 Periodically, some sensors would have windows of missing values (temperature in this sensor's case).  It is difficult to determine if this was due to potential sensor malfunction (or perhaps software update, etc).  
 
-![sensor](images/single_subsensor_temp_data_two_month_dbscan_clusters.png)
-<p align='center'><i>Fig: DBSCAN Two-Month Window Temperature Anomalies</i></p>
+![sensor](images/pr103j2_single_sensor_temperature_fluct_missing_window_example.png)
+<p align='center'><i>Fig: Potential Malfunctioning Window</i></p>
 	
 
 [Top](#table-of-contents) 
