@@ -90,6 +90,7 @@ Time series dataset machine learning examination is still really being developed
      - representing 1,112 days, i.e. 3 years, 16 days
   - **granularity of data** - 25s increments for multiple sensors, multiple sensor substems, and multiple parameters
   - **total number of unique nodes** - 126
+  - many nodes include chemical sensors, Alphasense OPN-N2 air quality sensors, and/or Plantower PMS7003 air quality sensors (data breaks this out by C, A, and P designator)
   - **important variables** 
     - sensor node id 
     - subsystem type of sensor  
