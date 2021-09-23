@@ -1,0 +1,13 @@
+
+--- project ---
+
+Running DBSCAN on a large window of 2 months for a single sensor
+
+Creating a rough gridsearch matrix (eps and min_samples varying)
+
+
+
+
+
+
+--- results ---
