@@ -313,15 +313,8 @@ Image below of two month window (closeup image can be found [here](https://raw.g
 ### Jupyter Notebooks Code
 
 - [Main Jupyter Code NbViewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
-- [001 - Examining Metadata Files](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/001_examining_sensor_metadata_csv_files.ipynb)
-- [001 - Reading Metadata Files](http://jekyllrb.com/)
-- [002 - Reading Data](http://jekyllrb.com/)
-- [003 - Initial EDA](http://jekyllrb.com/)
-- [004 - Node Location Visualization](http://jekyllrb.com/)
-- [005 - Exploration](http://jekyllrb.com/)
-- [006 - Isolation Forest](http://jekyllrb.com/)
-- [007 - Clustering](http://jekyllrb.com/)
-- [008 - Summary](http://jekyllrb.com/)
+- [001 - Examining Sense Metadata](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/101_examining_sensor_metadata_csv_files.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/101_examining_sensor_metadata_csv_files.html)]
+- 	
  
 <br>
  
