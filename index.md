@@ -288,7 +288,7 @@ Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and ab
 abc 
 	
 **DBSCAN**
-It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an algorithm like DBSCAN for time series data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. Optimal eps was abc. 
+It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an algorithm like DBSCAN for time series data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. Optimal eps was abc.   DBSCAN does not require k (number of clusters) as the input. 
 
 As the min_window hyperparameter increased, we observed increase in number of identified anomaly point count within cluster '-1'.  What worked here was creating a 'gridspec' like matrix of eps vs min_windows.  By virtue of the type of data we had, we actually had very small eps values (per expectation).  As eps increased, we observed...
 	
