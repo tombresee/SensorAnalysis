@@ -52,7 +52,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
  
 ### Jupyter Notebooks Code
 
-All code will be hosted within the github 'code' folder [here](https://github.com/tombresee/SensorAnalysis/tree/main/ENTER/code), but for viewing ease, the following rendered links are provided.  If a link doesn't work the first time, give it a sec and retry, be patient... 
+All code will be hosted within the github 'code' folder [here](https://github.com/tombresee/SensorAnalysis/tree/main/ENTER/code), but for viewing ease, the following rendered links are provided.  If a link doesn't work the first time, give it a sec and retry, be patient, they are pretty big files...
 	
 - https://rawgit.org/
 - [Main Jupyter Code NbViewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
