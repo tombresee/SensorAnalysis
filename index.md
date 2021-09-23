@@ -224,7 +224,6 @@ data_format_version,project_id,data_start_date,data_end_date,creation_date,url
 ---
 
 <br>
-
 	
 ##  References 
 
@@ -282,14 +281,18 @@ The data file was in compressed tar format.  This main file was downloaded, and 
 	
 ### Unsupervised Learning Methods
 We will describe the workflow of the source code, the leaning methods used, and the feature representation used. 
-*Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and abc.*
+
+Focused on investigating anomalies via Isolation Forest, DBSCAN, HDBSCAN, and abc.*
 	
 **Isolation Forest**
 abc 
 	
 **DBSCAN**
-> It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an algorithm like DBSCAN for time series data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. Optimal eps was abc. 
+It should be noted that with time-series it is not really feasible to dynamically determine the number of 'clusters' prior, thus using an algorithm like DBSCAN for time series data, Density Based Spatial Clustering of Applications with Noise (DBSCAN) becomes a nice approach, as it does not require any predefined number of clusters and has only two parameters (minimum number of points in a cluster and epsilon, distance between clusters), it is relatively fast as well. Optimal eps was abc. 
 
+As the min_window hyperparameter increased, we observed increase in number of identified anomaly point count within cluster '-1'.  What worked here was creating a 'gridspec' like matrix of eps vs min_windows.  By virtue of the type of data we had, we actually had very small eps values (per expectation).  As eps increased, we observed...
+	
+	
 Image below of two month window (closeup image can be found [here](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/images/single_subsensor_temp_data_two_month_dbscan_clusters.png))
 
 ![sensor](images/single_subsensor_temp_data_two_month_dbscan_clusters.png)
