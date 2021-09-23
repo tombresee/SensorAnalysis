@@ -22,6 +22,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Table of Contents](#table-of-contents)
+- [All Project Code](#all-project-code)
 - [Motivation](#motivation)
 - [What Data is Collected ?](#what-data-is-collected-?)
 - [Data Deep Dive](#data-deep-dive)
@@ -44,6 +45,24 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
   	- [B. Sensor Malfunction Example](#b-sensor-malfunction-example)
 	
 <!-- /TOC -->
+
+
+##  All Project Code
+ 
+### Jupyter Notebooks Code
+
+All code will be hosted within the github 'code' folder [here](https://github.com/tombresee/SensorAnalysis/tree/main/ENTER/code), but for viewing ease, the following rendered links are provided
+	
+- https://rawgit.org/
+- [Main Jupyter Code NbViewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
+- [101 - Examining Sensor Metadata](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/101_examining_sensor_metadata_csv_files.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/101_examining_sensor_metadata_csv_files.html)]
+- [102 - Dask Dataset Read-in and Processing](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/102_dask_reading_processing_filtering.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/102_dask_reading_processing_filtering.html)]
+- [104 - Examining Sensor Node Positions](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/104_examining_sensor_positions.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/104_examining_sensor_positions.html)] [[viz](https://rawcdn.githack.com/tombresee/SensorAnalysis/0b1a54fcba14e4042fbc7534281b845a8134f2ec/ENTER/code/node_locations_visualized/index.html)]
+
+
+	
+<br>
+
 
 <br>
 
