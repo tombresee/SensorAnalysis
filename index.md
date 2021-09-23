@@ -53,6 +53,8 @@ As a continuing investigation into the realm of real-world sensor analytics, we 
 
 **The IoT sector is expected to be a billion dollar market as advances in computing, lower cost sensors, and 5G cellular technology progress.** We anticipate more and more IoT-related AI research is done into subjects such as sensor parameter key performance indicator (KPI) anomaly detection, sensor predictive maintenance, sensor malfunction estimation, and sensor status.  Our investigation revolved around clustering sensor data KPI values into 'normal' vs 'anomalous', as well as comparing individual cluster node data with other nodes. Specific unsupervised learning techniques involved are isolation forest, DBSCAN, <insert>, and <insert> clustering.   Part of the motivation for this project is the fact that this dataset represents a huge real-world non-synthetic view of sensor IoT program.  Many datasets from UCI or Kaggle are synthetic or run under laboratory-like conditions, however this dataset represents insight into how IoT sensors really perform, the good, the bad, the practical...
 	
+One of our goals is to create code to <ul>cluster<_ul> streams of time-series data into normal, non-normal, and anomalous.  
+	
 <br>
 
 ##  Philosophy
