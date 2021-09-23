@@ -277,7 +277,7 @@ What challenges did you encounter and how did you solve them?
 
 	
 ### Reading Dataset
-The data file was in compressed tar format.  This main file was downloaded, and the archive was untared, which produced a directory.  We unpacked the data archive, and the archive decompressed to a CSV file about 10 times its original size (ending up being over 300GB in memory size).  We leveraged [Dask](https://dask.org/) for the initial assimilation of the data, due to massive size.  Rows that contined non-float id values (used as section identifiers) were filtered out.  Initially, we created one single dataframe that encompassed **one** of the 126 nodes information, and exported that as csv, for ease in initial investigation. 
+Our main data file was in compressed tar format. This main file was downloaded, and the archive was untared, which produced a directory. We unpacked this data archive, and the archive decompressed to a huge CSV file about 10 times its original size (ending up being over 320 GB in total size).  We leveraged [Dask](https://dask.org/) for the initial assimilation of the data, due to it's massive size and inability to fit into conventional RAM memory.  Initially, we created a single massive dataframe which encompassed all sensor data over all the years (with 25s granularity) associated with one (of the 126) node locations, and also cleaned that data and exported it to parquet format, which we had excellent results with for speed of calculations and IO functionality. This served as our initial examination, until we expanded to multiple sets of nodes. 
 	
 ### Unsupervised Learning Methods
 We will describe the workflow of the source code, the leaning methods used, and the feature representation used. 
