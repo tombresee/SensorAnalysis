@@ -318,7 +318,8 @@ All code will be hosted within the github 'code' folder [here](https://github.co
 - [Main Jupyter Code NbViewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
 - [101 - Examining Sensor Metadata](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/101_examining_sensor_metadata_csv_files.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/101_examining_sensor_metadata_csv_files.html)]
 - [102 - Dask Dataset Read-in and Processing](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/102_dask_reading_processing_filtering.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/102_dask_reading_processing_filtering.html)]
- 
+- [104 - Examining Sensor Node Positions](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/104_examining_sensor_positions.html)]
+	
 <br>
  
 
