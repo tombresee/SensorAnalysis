@@ -44,7 +44,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Appendix](#appendix)
   	- [A. Follow Up Research](#a-follow-up-research)
   	- [B. Sensor Malfunction Example](#b-sensor-malfunction-example)
-  	- [C. All Sensors](#all-sensors)
+  	- [C. All Sensors](#c-all-sensors)
 
 <!-- /TOC -->
 
@@ -424,6 +424,8 @@ Platform, see http://www.wa8.gl for details.
 - Deeper examinination into time-series clustering
 - Deeper analysis of how to effectively do anomaly detection on time-series where the data is not necessarily cyclic, periodic, or un'wavering'
 - Developing a sliding-window based approach, to use the real-time API to determine update anomalies over the course of time (a truly dynamic anomaly detection system)
+
+<br>
 	
 #### B. Sensor Malfunction Example
 Periodically, some sensors would have windows of missing values (temperature in this sensor's case).  It is difficult to determine if this was due to potential sensor malfunction (or perhaps software update, etc).  
@@ -431,6 +433,8 @@ Periodically, some sensors would have windows of missing values (temperature in 
 ![sensor](images/pr103j2_single_sensor_temperature_fluct_missing_window_example.png)
 <p align='center'><i>Fig: Potential Malfunctioning Window</i></p>
 
+<br>
+	
 #### C. All Sensors
 
 |     | node_id      | address                                                     |     lat |      lon | start_timestamp     |
