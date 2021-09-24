@@ -40,6 +40,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Malfunction Information](#malfunction-information)
 - [Ethical Implications](#ethical-implications)
 - [Challenges](#challenges)
+- [Observations/Discussion](#observation-discussion)
 - [Appendix](#appendix)
   	- [A. Follow Up Research](#a-follow-up-research)
   	- [B. Sensor Malfunction Example](#b-sensor-malfunction-example)
@@ -381,7 +382,6 @@ Platform, see http://www.wa8.gl for details.
 - What ethical issues could arise in providing a solution here, and how could you address them?
   - add 
       
-	
 <br>
     
 ## Challenges
@@ -396,6 +396,25 @@ Platform, see http://www.wa8.gl for details.
 **Plotting** -- It should be understood that given the granular nature of the streaming data (every 25-30s), a single dimension single variate parameter results in over 1M observations per year.  Thus plotting in larger window sizes required using high level plotting libraries such as Matplotlib/Seaborn, but for shorter timeframes where real-time granularity was necessary, Altair and Plotly were used. Plotly was also used in some cases so that the Dash version of the plots could be plotted online (heroku). 
 		
 <br>
+	
+	
+## Observations/Discussion
+
+<b>What we learned</b>
+- When dealing with very large sets of data, it is *critical* to know Dask (and also fundamental Dask concepts like partition sizes, block sizes, persist vs compute commmands, etc), parquet-based dataframe forms, multiprocessing on pandas, and any edge on speeding up dataframe processing. This should all be know prior to processing large datasets or unforgivable amounts of time are lost.
+- Grouping time-series data into clusters is sometime quite subjective; 'subject-matter expertise' and judgement calls become key component of the process.
+	
+
+<b>The suprising elements of the results</b>
+1. The anomalous datapoint count varied dramatically based on input hyperparameters
+1. It was **startling** how well DBSCAN worked in terms of identifying anomalies, but also how accurate it seemed to be in identifying clusters of unusual data values that were not necessarily defined as anomalies, but also were not part of the main 'group' (cluster 0).  These clusters were in someway abnormal but not anomalous...
+
+
+<b>Extended Solution Thoughts</b> 
+- With more time/resources, investigation into brand-new approaches such as Matrixprofile [[mpf](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html)] [[matrixprofile foundation](https://matrixprofile.org/)] would have been fascinating to leverage
+	
+	
+<br>	
 	
  
 ##  Appendix
