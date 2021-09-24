@@ -40,7 +40,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Malfunction Information](#malfunction-information)
 - [Ethical Implications](#ethical-implications)
 - [Challenges](#challenges)
-- [Observations/Discussion](#observations/discussion)
+- [Observations and Discussion](#observations-and-discussion)
 - [Appendix](#appendix)
   	- [A. Follow Up Research](#a-follow-up-research)
   	- [B. Sensor Malfunction Example](#b-sensor-malfunction-example)
@@ -398,7 +398,7 @@ Platform, see http://www.wa8.gl for details.
 <br>
 	
 	
-## Observations/Discussion
+## Observations and Discussion
 
 <b>What we learned</b>
 - When dealing with very large sets of data, it is *critical* to know Dask (and also fundamental Dask concepts like partition sizes, block sizes, persist vs compute commmands, etc), parquet-based dataframe forms, multiprocessing on pandas, and any edge on speeding up dataframe processing. This should all be know prior to processing large datasets or unforgivable amounts of time are lost.
