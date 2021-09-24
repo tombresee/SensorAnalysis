@@ -355,6 +355,7 @@ Platform, see http://www.wa8.gl for details.
   
 <br>
   
+	
  
 ##  Nodes Network
 - The nodes allow the city to track vehicle and pedestrian collisions to understand which intersections or traffic flows lead to pedestrian deaths and make urban planning changes accordingly.
