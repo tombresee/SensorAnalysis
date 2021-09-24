@@ -65,7 +65,7 @@ All code will be hosted within the github 'code' folder [here](https://github.co
   - If you open the .html, at the bottom you can move the sliding bar range (grey plot) to see the output in the above plot
   - [[plotly render](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/results/temp_1q_2019_chicago.html)]   
 - [201 - DBSCAN start](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/201_DBSCAN_start.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/201_DBSCAN_start.html)] [[univariate data](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/single_subsensor_temp_data_plotted_two_months.png)] [[iter1 clusters](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/dbr_1.png)] [[anomalies](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/pow.png)] [[closeup1](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/dbr_1_r1.png)] [[closeup2](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/dbr_1_r2e.png)] [[why](https://en.wikipedia.org/wiki/January%E2%80%93February_2019_North_American_cold_wave#:~:text=In%20late%20January%202019%2C%20a,killing%20at%20least%2022%20people.&text=As%20a%20result%2C%20February%202019,on%20record%20in%20these%20regions.)]
-  - Clicking the code directly also allows you to see the code rendered (or toggle the button to only see the plots/results)
+  - Clicking the 201 code directly also allows you to see the code rendered (or toggle the button to only see the plots/results)
 
 
 
