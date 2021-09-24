@@ -40,7 +40,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Malfunction Information](#malfunction-information)
 - [Ethical Implications](#ethical-implications)
 - [Challenges](#challenges)
-- [Observations/Discussion](#observations-discussion)
+- [Observations/Discussion](#observations/discussion)
 - [Appendix](#appendix)
   	- [A. Follow Up Research](#a-follow-up-research)
   	- [B. Sensor Malfunction Example](#b-sensor-malfunction-example)
