@@ -56,7 +56,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 All code will be hosted within the github 'code' folder [here](https://github.com/tombresee/SensorAnalysis/tree/main/ENTER/code), but for viewing ease, the following rendered links are provided.  If a link doesn't work the first time, give it a sec and retry, be patient, they are pretty big files...
 	
-- https://rawgit.org/
 - [Code Vault via NbViewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
 - [101 - Examining Sensor Metadata](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/101_examining_sensor_metadata_csv_files.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/101_examining_sensor_metadata_csv_files.html)]
 - [102 - Dask Dataset Read-in and Processing](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/102_dask_reading_processing_filtering.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/102_dask_reading_processing_filtering.html)]
