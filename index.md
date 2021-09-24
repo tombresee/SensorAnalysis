@@ -67,6 +67,7 @@ All code will be hosted within the github 'code' folder [here](https://github.co
     
 - [201 - DBSCAN start](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/201_DBSCAN_start.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/201_DBSCAN_start.html)] [[univariate data](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/single_subsensor_temp_data_plotted_two_months.png)] [[iter1 clusters](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/dbr_1.png)] [[anomalies](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/pow.png)] [[closeup1](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/dbr_1_r1.png)] [[closeup2](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/dbr_1_r2e.png)]
 
+https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/temp_1q_2019_chicago.html
 
 
 
