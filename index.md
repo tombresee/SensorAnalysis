@@ -71,9 +71,7 @@ All code will be hosted within the github 'code' folder [here](https://github.co
 - [204 - Isolation Forest Examination](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/204_isolation_forest_working.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/204_isolation_forest_working.html)] 
 
 
-[[plotly data](https://rawcdn.githack.com/tombresee/SensorAnalysis/ceeb9b02bad78c4e138f6a451b62c1943764e145/ENTER/results/iso_forest_base_data_plotted.html)] [[data histogram](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_isolation_forest.png)]  [[anoamly score](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_anomaly_scores_isolation_forest.png)] 
-
-[[awesome anomalies](https://rawcdn.githack.com/tombresee/SensorAnalysis/ceeb9b02bad78c4e138f6a451b62c1943764e145/ENTER/results/isolation_forest_final_AD_plotted_superhighres.html)]
+[[plotly data](https://rawcdn.githack.com/tombresee/SensorAnalysis/ceeb9b02bad78c4e138f6a451b62c1943764e145/ENTER/results/iso_forest_base_data_plotted.html)] [[data histogram](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_isolation_forest.png)]  [[anoamly score](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_anomaly_scores_isolation_forest.png)] [[awesome anomalies](https://rawcdn.githack.com/tombresee/SensorAnalysis/ceeb9b02bad78c4e138f6a451b62c1943764e145/ENTER/results/isolation_forest_final_AD_plotted_superhighres.html)]
   
   
   
