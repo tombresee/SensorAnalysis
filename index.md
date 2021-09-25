@@ -74,7 +74,7 @@ All code will be hosted within the github 'code' folder [here](https://github.co
 
 [[data histogram](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_isolation_forest.png)] 
 
-[[plotly data](https://rawcdn.githack.com/tombresee/SensorAnalysis/ceeb9b02bad78c4e138f6a451b62c1943764e145/ENTER/results/iso_forest_base_data_plotted.html)] 
+[[plotly data](https://rawcdn.githack.com/tombresee/SensorAnalysis/ceeb9b02bad78c4e138f6a451b62c1943764e145/ENTER/results/iso_forest_base_data_plotted.html)] [[data histogram](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_isolation_forest.png)]  [[anoamly score](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_anomaly_scores_isolation_forest.png)] 
 
     
   
