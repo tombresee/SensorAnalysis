@@ -52,7 +52,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 ##  All Project Code
  
-All code (python and jupyter notebooks) will be hosted within our main SensorAnalysis github 'code' folder [here](https://github.com/tombresee/SensorAnalysis/tree/main/ENTER/code), but for viewing ease, the following rendered links are provided.  If a link doesn't work the first time, give it a sec and retry, be patient, they are pretty big files...
+All code (python and jupyter notebooks) will be hosted within our main SensorAnalysis github 'code' folder [here](https://github.com/tombresee/SensorAnalysis/tree/main/ENTER/code), but for viewing ease, the following rendered links are provided (code, jupyter notebooks in nbviewer as well as html rendered view, in additions to result images).  If a link doesn't work the first time, give it a sec and retry, be patient, they are pretty big files...
 	
 - [All Jupyter Notebooks viewable via Nbviewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
 - [101 - Examining Sensor Metadata](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/101_examining_sensor_metadata_csv_files.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/101_examining_sensor_metadata_csv_files.html)]
