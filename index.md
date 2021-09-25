@@ -73,6 +73,11 @@ All code will be hosted within the github 'code' folder [here](https://github.co
   
 
 
+[![Watch the video](2F1B.png)](https://upload.wikimedia.org/wikipedia/commons/6/63/North_america_polar_vortex_january_2019.webm)
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
+
 
 
 <br>
