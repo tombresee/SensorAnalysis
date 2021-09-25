@@ -72,6 +72,10 @@ All code will be hosted within the github 'code' folder [here](https://github.co
 
 [[anoamly score](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_anomaly_scores_isolation_forest.png)] 
 
+[[data histogram](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_isolation_forest.png)] 
+
+  
+  
   
   
 
