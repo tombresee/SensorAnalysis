@@ -70,7 +70,7 @@ All code will be hosted within the github 'code' folder [here](https://github.co
   - Clicking the 201 code directly also allows you to see the code rendered (or toggle the button to only see the plots/results)
 - [204 - Isolation Forest Examination](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/204_isolation_forest_working.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/204_isolation_forest_working.html)] 
 
-(https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/dbr_1_r1.png)] [[anoamly score](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_anomaly_scores_isolation_forest.png)] 
+[[anoamly score](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/histogram_anomaly_scores_isolation_forest.png)]] 
 
   
   
