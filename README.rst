@@ -5,6 +5,8 @@ Array Of Things (AoT)
 
 |
 
+## Links
+
 
 * https://github.com/sagecontinuum/sage-ecr
 
@@ -29,28 +31,6 @@ Array Of Things (AoT)
 * https://github.com/waggle-sensor/beehive-server/tree/master/publishing-tools/projects
 
 * Nodes:  https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv
-
-* Sensors: https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv
-
-* https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv
-
-* Sensors list out ! 
-
-* 
-
-
-Introduction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-**Dataset II - Unsupervised Learning**
-
-* **Plot**:  Take the list of sensor node GPS coordinates, and plot nicely into something like Leaflet or some visualization, this is an easy but nice to show visualization technique that will get us points.  Raw lat/long data files kept `here <https://github.com/tombresee/Michigan_Milestone_Initial_Work/blob/main/ENTER/RAW%20DATASET%20II/nodes.csv>`_.  The online arc gis like map from AoT is viewable `here <https://data.cityofchicago.org/Environment-Sustainable-Development/Array-of-Things-Locations-Map/2dng-xkng>`_, maybe we build our own version of this.  Should be easy to do, just taking lats/lons into some pretty picture.  
-
-
-* **Great Lakes**:  Do some initial processing on the Michigan Great Lakes cluster, to build ability to later to ask for compute time for potential capstone extension analysis...
-
-* **Heroku**:  This is not always easy to work on, need to start gradually adding some viz and verbage to https://michigan-milestone.herokuapp.com/ instance.  Incrementally learn/add to this.  Good opportunity for learning plotly/dash and advanced visualization here. 
 
 
 
@@ -77,6 +57,7 @@ SAGE
 
 
 
+
 What is the Chicago AoT Program ? 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -86,10 +67,6 @@ What is the Chicago AoT Program ?
 * AoT is **now** an anchor partner in a new NSF-funded project called SAGE.
 
   *  In late 2018 the AoT team proposed a new effort to the National Science Foundation's Mid-Scale Research Infrastuructre program, with an expanded vision, building on all of the lessons learned from the AoT project and creating a new hardware and software infrastructure. Successfully funded with a start of October 2019, the new NSF-funded project, called SAGE: A Software-Defined Sensor Network, will result in a migration of AoT functions to new devices in 2021. SAGE is led by Northwestern University in partnership with the Discovery Partners Institute (University of Illinois), University of Chicago, Argonne National Laboratory, the University of Colorado, the University of California-San Diego, Northern Illinois University, Chicago's Lincoln Park Zoo, the University of Utah, and George Mason University.  
-
-
-
-**Plot**:  Take the list of sensor node GPS coordinates, and plot nicely into something like Leaflet or some visualization, this is an easy but nice to show visualization technique that will get us points.  Raw lat/long data files kept `here <https://github.com/tombresee/Michigan_Milestone_Initial_Work/blob/main/ENTER/RAW%20DATASET%20II/nodes.csv>`_.  The online arc gis like map from AoT is viewable `here <https://data.cityofchicago.org/Environment-Sustainable-Development/Array-of-Things-Locations-Map/2dng-xkng>`_, maybe we build our own version of this.  Should be easy to do, just taking lats/lons into some pretty picture. 
 
 
 
