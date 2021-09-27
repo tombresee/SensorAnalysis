@@ -7,6 +7,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 <dl>
+<dt>Purpose</dt>
+<dd>University of Michigan Milestone II</dd>
 <dt>Author</dt>
 <dd>Tom Bresee</dd>
 <dt>Date</dt>
