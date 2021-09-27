@@ -5,12 +5,14 @@ Array Of Things (AoT)
 
 |
 
+
 :Splash Page: https://tombresee.github.io/SensorAnalysis/
 :Heroku Page: https://michigan-milestone.herokuapp.com/
 :Authors: Tom Bresee, Michael Phillips
 :Version: 2.0 
 :University: Michigan
 :Course: SIADS 694/695: Milestone II
+:Focus: Anomaly Detection of Time-Series Sensor Cluster Data
 :Observations: 4,195,104,977
 
 |
@@ -18,6 +20,8 @@ Array Of Things (AoT)
 - If you want to see the big picture of what I'm trying to do here, click the Splash Page, it gives you a thorough background.  It is detailed and walks you through what precisely is going on, the depth of the data analysis, etc etc. 
 - If you want to see the jupyter notebook code and results, just go to this `section <https://tombresee.github.io/SensorAnalysis/#all-project-code>`_ of the Splash Page, makes reviewing the code easy 
 - If you want to see some cool results that were uploaded to the heroku page, click the Heroku Page link above 
+- The part A of this project was Supervised Machine Learning for wearable sensors, the initial plunge into sensor analysis, with code from Michael Phillips stored `here <https://github.com/mphillipsjr96/HAR>`_
+
 
 |
 
