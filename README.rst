@@ -6,6 +6,7 @@ Array Of Things (AoT)
 |
 
 :Splash Page: https://tombresee.github.io/SensorAnalysis/
+:Heroku Page: https://michigan-milestone.herokuapp.com/
 :Authors: Tom Bresee, Michael Phillips
 :Version: 2.0 
 :University: Michigan
@@ -14,7 +15,7 @@ Array Of Things (AoT)
 |
 
 
-_Highly recommend clicking splash page link above for overall project understanding..._
+*Highly recommend clicking splash page link above for overall project understanding...*
 
 
 What is the Chicago AoT Program ? 
