@@ -89,7 +89,6 @@ Time series dataset machine learning examination is still really being developed
 	
 <br>
  
- 
 
 ##  What Data is Collected in the AoT Cluster ?  
 - The sensor nodes measure items such as temperature, barometric pressure, light, vibration, magnetic fluctation, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic.  Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water. 
