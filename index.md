@@ -7,8 +7,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 
 <dl>
-<dt>Authors</dt>
-<dd>Tom Bresee, Michael Phillips</dd>
+<dt>Author</dt>
+<dd>Tom Bresee</dd>
 <dt>Date</dt>
 <dd>September 2021</dd>
 </dl>
