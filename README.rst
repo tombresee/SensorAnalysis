@@ -6,33 +6,16 @@ Array Of Things (AoT)
 |
 
 
-Links
+
+What is the Chicago AoT Program ? 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* The Array of Things (AoT) is an experimental urban measurement system comprising programmable, modular "nodes" with sensors and computing capability so that they can analyze data internally, for instance counting the number of vehicles at an intersection (and then deleting the image data rather than sending it to a data center). AoT nodes are installed in Chicago and a growing number of partner cities to collect real-time data on the city’s environment, infrastructure, and activity for research and public use. The concept of AoT is analogous to a “fitness tracker” for the city, measuring factors that impact livability in the urban environment, such as climate, air quality, and noise.  
 
-* https://github.com/sagecontinuum/sage-ecr
 
-* https://github.com/sagecontinuum
+* AoT is **now** an anchor partner in a new NSF-funded project called SAGE.
 
-* https://github.com/sagecontinuum/SageScienceExamples/blob/master/Mobotix_RadTherm/Ground/All_Data_Plot.ipynb
-
-* https://github.com/sagecontinuum/SageScienceExamples/blob/master/WiseNet_RadTherm_Camera/Read_And_Scale_From_4030TR.ipynb
-
-* https://www.spec-sensors.com/
-
-* https://www.research.northwestern.edu/world-watchers/
-
-* https://datasmart.ash.harvard.edu/news/article/a-guide-to-chicagos-array-of-things-initiative-1190
-
-* https://www.anl.gov/mcs/array-of-things
-
-* https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php
-
-* http://wa8.gl/data/
-
-* https://github.com/waggle-sensor/beehive-server/tree/master/publishing-tools/projects
-
-* Nodes:  https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv
+  *  In late 2018 the AoT team proposed a new effort to the National Science Foundation's Mid-Scale Research Infrastuructre program, with an expanded vision, building on all of the lessons learned from the AoT project and creating a new hardware and software infrastructure. Successfully funded with a start of October 2019, the new NSF-funded project, called SAGE: A Software-Defined Sensor Network, will result in a migration of AoT functions to new devices in 2021. SAGE is led by Northwestern University in partnership with the Discovery Partners Institute (University of Illinois), University of Chicago, Argonne National Laboratory, the University of Colorado, the University of California-San Diego, Northern Ill
 
 
 
@@ -60,22 +43,6 @@ SAGE
 
 
 
-What is the Chicago AoT Program ? 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* The Array of Things (AoT) is an experimental urban measurement system comprising programmable, modular "nodes" with sensors and computing capability so that they can analyze data internally, for instance counting the number of vehicles at an intersection (and then deleting the image data rather than sending it to a data center). AoT nodes are installed in Chicago and a growing number of partner cities to collect real-time data on the city’s environment, infrastructure, and activity for research and public use. The concept of AoT is analogous to a “fitness tracker” for the city, measuring factors that impact livability in the urban environment, such as climate, air quality, and noise.  
-
-
-* AoT is **now** an anchor partner in a new NSF-funded project called SAGE.
-
-  *  In late 2018 the AoT team proposed a new effort to the National Science Foundation's Mid-Scale Research Infrastuructre program, with an expanded vision, building on all of the lessons learned from the AoT project and creating a new hardware and software infrastructure. Successfully funded with a start of October 2019, the new NSF-funded project, called SAGE: A Software-Defined Sensor Network, will result in a migration of AoT functions to new devices in 2021. SAGE is led by Northwestern University in partnership with the Discovery Partners Institute (University of Illinois), University of Chicago, Argonne National Laboratory, the University of Colorado, the University of California-San Diego, Northern Illinois University, Chicago's Lincoln Park Zoo, the University of Utah, and George Mason University.  
-
-
-
-|
-|
-
-
 Privacy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -91,6 +58,7 @@ Privacy
 |
 
 
+
 The Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -101,10 +69,6 @@ SubFiles:
     README.md	    # An explaination of the database fields 
     sensors.csv	    # A list of active sensors and their pertinent metadata
     offsets.csv     # data.csv.gz file byte offsets
-
-* Data Fields 
-
-  * abc   
 
 
 * What Data is Collected ?  
@@ -135,6 +99,35 @@ Reference Links
 * `Current AoT Node Architecture <http://arrayofthings.github.io/node.html>`_
 
 * `Heroku Link <https://michigan-milestone.herokuapp.com/>`_ - Jupyter notebooks output visualizations 
+
+* https://github.com/sagecontinuum/sage-ecr
+
+* https://github.com/sagecontinuum
+
+* https://github.com/sagecontinuum/SageScienceExamples/blob/master/Mobotix_RadTherm/Ground/All_Data_Plot.ipynb
+
+* https://github.com/sagecontinuum/SageScienceExamples/blob/master/WiseNet_RadTherm_Camera/Read_And_Scale_From_4030TR.ipynb
+
+* https://www.spec-sensors.com/
+
+* https://www.research.northwestern.edu/world-watchers/
+
+* https://datasmart.ash.harvard.edu/news/article/a-guide-to-chicagos-array-of-things-initiative-1190
+
+* https://www.anl.gov/mcs/array-of-things
+
+* https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php
+
+* http://wa8.gl/data/
+
+* https://github.com/waggle-sensor/beehive-server/tree/master/publishing-tools/projects
+
+* Nodes:  https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/nodes.csv
+
+
+|
+|
+
 
 
 .. figure:: https://github.com/tombresee/Michigan_Milestone_Initial_Work/raw/main/ENTER/IMAGES/AoT-Diagram.jpg
