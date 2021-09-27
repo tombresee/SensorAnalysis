@@ -5,7 +5,7 @@ Array Of Things (AoT)
 
 |
 
-:Splash Page: [link](https://tombresee.github.io/SensorAnalysis/)
+:Splash Page: https://tombresee.github.io/SensorAnalysis/
 :Authors: Tom Bresee, Michael Phillips
 :Version: 2.0 
 :University: Michigan
