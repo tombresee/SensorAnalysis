@@ -316,8 +316,6 @@ Image below of two month window (closeup image can be found [here](https://raw.g
 ![sensor](images/single_subsensor_temp_data_two_month_dbscan_clusters.png)
 <p align='center'><i>Fig: DBSCAN Two-Month Window Temperature Anomalies</i></p>
 
-**Tuning:**
-- abc
 	
 **Challenges encountered and how we solved them:** 
 - Interesting:  The Jan/Feb 2019 cold wave (polar vortex) was so bad that smashed into the USA, it got its own wikipedia page [link](https://en.wikipedia.org/wiki/January%E2%80%93February_2019_North_American_cold_wave)
