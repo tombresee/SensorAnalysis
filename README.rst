@@ -14,7 +14,7 @@ Array Of Things (AoT)
 |
 
 
-> Highly recommend clicking splash page link for understanding...
+_Highly recommend clicking splash page link above for overall project understanding..._
 
 
 What is the Chicago AoT Program ? 
