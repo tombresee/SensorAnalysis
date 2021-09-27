@@ -11,7 +11,7 @@ Array Of Things (AoT)
 :Version: 2.0 
 :University: Michigan
 :Course: SIADS 694/695: Milestone II
-:Dataset Row Count: 4,195,104,977
+:Observations: 4,195,104,977
 
 |
 
