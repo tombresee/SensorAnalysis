@@ -14,8 +14,8 @@ Array Of Things (AoT)
 
 |
 
-- If you want to see the big picture of what I'm trying to do here, click the Splash Page, it gives you a thorough background.  It is detailed and walks you through what precisely is going on [here](https://tombresee.github.io/SensorAnalysis/#all-project-code), the depth of the data analysis, etc etc. 
-- If you want to see the code and results, just go to this section of the Splash Page, makes reviewing the code easy 
+- If you want to see the big picture of what I'm trying to do here, click the Splash Page, it gives you a thorough background.  It is detailed and walks you through what precisely is going on, the depth of the data analysis, etc etc. 
+- If you want to see the jupyter notebook code and results, just go to this `section <https://tombresee.github.io/SensorAnalysis/#all-project-code>`_ of the Splash Page, makes reviewing the code easy 
 - If you want to see some cool results that were uploaded to the heroku page, click the Heroku Page link above 
 
 |
