@@ -7,7 +7,7 @@ HTML('''<script>
       $('#toggleButton').val('Show Code')
     } else {
       $('div.input').show('500');
-      $('#toggleButton').val('Hide Code')
+      $('#toggleButton').val('Hide All Notebook Code')
     }
     code_shown = !code_shown
   }
@@ -15,4 +15,4 @@ HTML('''<script>
   $( document ).ready(function(){
     code_shown=false;
     $('div.input').hide()
-  });</script><form action="javascript:code_toggle()"><input type="submit" id="toggleButton" value="Show Code"></form>''')
+  });</script><form action="javascript:code_toggle()"><input type="submit" id="toggleButton" value="Show All Notebook Code"></form>''')
