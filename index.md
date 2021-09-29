@@ -10,7 +10,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 <dt>Purpose</dt>
 <dd>University of Michigan Milestone II</dd>
 <dt>Author</dt>
-<dd>[Tom Bresee](tbresee@umich.edu)</dd>
+<dd>Tom Bresee</dd>
 <dt>Date</dt>
 <dd>September 2021</dd>
 </dl>
