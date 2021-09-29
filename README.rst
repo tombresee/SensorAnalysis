@@ -163,11 +163,31 @@ If you have used this codebase in a scientific publication and wish to cite it, 
     
 .. code:: bibtex
 
+    @article{mcinnes2017hdbscan,
+      title={hdbscan: Hierarchical density based clustering},
+      author={McInnes, Leland and Healy, John and Astels, Steve},
+      journal={The Journal of Open Source Software},
+      volume={2},
+      number={11},
+      pages={205},
+      year={2017}
+    }
+    
+To reference the high performance algorithm developed in this library please cite our paper in ICDMW 2017 proceedings.
+
     McInnes L, Healy J. *Accelerated Hierarchical Density Based Clustering* 
     In: 2017 IEEE International Conference on Data Mining Workshops (ICDMW), IEEE, pp 33-42.
     2017
 
 
+
+
+
+
+
+
+|
+|
 
 
 .. figure:: https://github.com/tombresee/Michigan_Milestone_Initial_Work/raw/main/ENTER/IMAGES/AoT-Diagram.jpg
