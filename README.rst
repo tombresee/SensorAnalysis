@@ -152,20 +152,20 @@ Reference Links
 
 
 ------
-Citations
+Citing
 ------
 
+If you have used this codebase in a scientific publication and wish to cite it, please use the `Journal of Open Source Software article <http://joss.theoj.org/papers/10.21105/joss.00205>`_.
 
     L. McInnes, J. Healy, S. Astels, *hdbscan: Hierarchical density based clustering*
     In: Journal of Open Source Software, The Open Journal, volume 2, number 11.
     2017
     
-
+.. code:: bibtex
 
     McInnes L, Healy J. *Accelerated Hierarchical Density Based Clustering* 
     In: 2017 IEEE International Conference on Data Mining Workshops (ICDMW), IEEE, pp 33-42.
     2017
-
 
 
 
