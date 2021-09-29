@@ -70,8 +70,9 @@ All code (python and jupyter notebooks) will be hosted within our main SensorAna
 - [206 - K-Means Clustering](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/206_k_means_clustering.ipynb) 
 [[html](https://rawcdn.githack.com/tombresee/SensorAnalysis/5d12cf73ad6820d81e244d9eb68f7f59009e598b/ENTER/code/206_k_means_clustering.html)] [[Litmus Plot](https://github.com/tombresee/SensorAnalysis/raw/main/ENTER/results/Litmus_Plot.png)] [[4](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/kmean_four_clusters_breakout.png)] [[6](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/kmean_six_clusters_breakout.png)] [[calculated cluster viz](https://github.com/tombresee/SensorAnalysis/raw/main/ENTER/results/k_means_cluster_temperatures_output.pdf)]
 [[elbow plot](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/elbow_plot_kmeans_dual.png)]
-[[optimal 3](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/kmean_three_clusters_breakout.png)]
- 
+[[optimal 3](https://raw.githubusercontent.com/tombresee/SensorAnalysis/main/ENTER/results/kmean_three_clusters_breakout.png)] 
+- Dash python code stored [here](https://github.com/tombresee/Michigan_Milestone) for the output heroku page [here](https://michigan-milestone.herokuapp.com/)
+
 <br>
 
 
