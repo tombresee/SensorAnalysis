@@ -150,6 +150,49 @@ Reference Links
 
 
 
+
+------
+Citing
+------
+
+If you have used this codebase in a scientific publication and wish to cite it, please use the `Journal of Open Source Software article <http://joss.theoj.org/papers/10.21105/joss.00205>`_.
+
+    L. McInnes, J. Healy, S. Astels, *hdbscan: Hierarchical density based clustering*
+    In: Journal of Open Source Software, The Open Journal, volume 2, number 11.
+    2017
+    
+.. code:: bibtex
+
+    @article{mcinnes2017hdbscan,
+      title={hdbscan: Hierarchical density based clustering},
+      author={McInnes, Leland and Healy, John and Astels, Steve},
+      journal={The Journal of Open Source Software},
+      volume={2},
+      number={11},
+      pages={205},
+      year={2017}
+    }
+    
+To reference the high performance algorithm developed in this library please cite our paper in ICDMW 2017 proceedings.
+
+    McInnes L, Healy J. *Accelerated Hierarchical Density Based Clustering* 
+    In: 2017 IEEE International Conference on Data Mining Workshops (ICDMW), IEEE, pp 33-42.
+    2017
+
+
+.. code:: bibtex
+
+    @inproceedings{mcinnes2017accelerated,
+      title={Accelerated Hierarchical Density Based Clustering},
+      author={McInnes, Leland and Healy, John},
+      booktitle={Data Mining Workshops (ICDMW), 2017 IEEE International Conference on},
+      pages={33--42},
+      year={2017},
+      organization={IEEE}
+    }
+
+    
+
 .. figure:: https://github.com/tombresee/Michigan_Milestone_Initial_Work/raw/main/ENTER/IMAGES/AoT-Diagram.jpg
    :scale: 50 %
    :alt: map to buried treasure
