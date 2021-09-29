@@ -180,10 +180,19 @@ To reference the high performance algorithm developed in this library please cit
     2017
 
 
+.. code:: bibtex
+
+    @inproceedings{mcinnes2017accelerated,
+      title={Accelerated Hierarchical Density Based Clustering},
+      author={McInnes, Leland and Healy, John},
+      booktitle={Data Mining Workshops (ICDMW), 2017 IEEE International Conference on},
+      pages={33--42},
+      year={2017},
+      organization={IEEE}
+    }
 
 
-
-
+    
 
 
 |
