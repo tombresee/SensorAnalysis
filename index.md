@@ -25,7 +25,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Table of Contents](#table-of-contents)
 - [All Project Code](#all-project-code)
 - [Motivation](#motivation)
-- [What Data is Collected ?](#what-data-is-collected-in-the-aoT-cluster-?)
+- [What Data is Collected in the AoT Cluster ?](#what-data-is-collected-in-the-aoT-cluster-?)
 - [Data Deep Dive](#data-deep-dive)
 - [References](#references)
 	- [Technical Background and Overview](#technical-background-and-overview)
