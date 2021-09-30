@@ -35,8 +35,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 	- [API](#api)
 - [Overall Project Code Methodology](#overall-project-code-methodology)
 - [Unsupervised Learning Methods](#unsupervised-learning-methods)
-- [All Project Code](#all-project-code)
-	- [Jupyter Notebooks Code](#jupyter-notebooks-code)
 - [Waggle](#waggle)
 - [Nodes Network](#nodes-network)
 - [Malfunction Information](#malfunction-information)
@@ -49,23 +47,6 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 	- [C. All Sensors](#c-all-sensors)
 
 <!-- /TOC -->
-
-
-
-
-
-- [Failure Analysis, Challenges, and Solutions](#failure-analysis-challenges-and-solutions)
-	- [Mean Anomaly Data Representation](#mean-anomaly-data-representation)
-	- [Custom Loss Functions](#custom-loss-functions)
-	- [Additional DBSCAN Features](#additional-dbscan-features)
-	- [Hyperparameter tuning, Optimizers, and Schedulers](#hyperparameter-tuning-optimizers-and-schedulers)
-	- [Configurable/Flexible Model Creation](#configurableflexible-model-creation)
-	- [Model Saving, Loading, and Rollback](#model-saving-loading-and-rollback)
-
-
-<!-- /TOC -->
-
-
 
 
 <br>
