@@ -26,7 +26,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [Table of Contents](#table-of-contents)
 - [All Project Code](#all-project-code)
 - [Motivation](#motivation)
-- [What Data is Collected in the AoT Cluster ?](#what-data-is-collected-in-the-aot-cluster-?)
+- [What Data is Collected in the AoT Cluster ?](#what-data-is-collected-in-the-aot-cluster)
 - [Data Deep Dive](#data-deep-dive)
 - [References](#references)
 	- [Technical Background and Overview](#technical-background-and-overview)
@@ -93,7 +93,7 @@ Time series dataset machine learning examination is still really being developed
 	
 <br>
  
-##  What Data is Collected in the AoT Cluster ?  
+## What Data is Collected in the AoT Cluster  
 - The sensor nodes measure items such as temperature, barometric pressure, light, vibration, magnetic fluctation, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, ambient sound pressure, and pedestrian and vehicle traffic.  Continued research and development is using machine learning to create sensors to monitor other urban factors of interest such as solar light intensity (visible, UV, and IR) and cloud cover (important to building energy management), and flooding and standing water. 
 - The Array of Things project is inherently interested in monitoring urban environment and activity, and not necessarily specific individuals.  The base technology and policy have been designed to specifically minimize any potential collection of data about individuals, so privacy protection is built into the design of the sensors and into the operating policies.  The goal is extensive smart city granular data.
 - The specific AoT sensors and their measured parameters are listed [here](https://github.com/tombresee/SensorAnalysis/blob/main/ENTER/data/sensor_capabilities.csv).  
