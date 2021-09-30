@@ -51,10 +51,8 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 
 <br>
 
-##  All Project Code
- 
-All code (python and jupyter notebooks) will be hosted within our main SensorAnalysis github 'code' folder [here](https://github.com/tombresee/SensorAnalysis/tree/main/ENTER/code), but for viewing ease, the following rendered links are provided (code, jupyter notebooks in nbviewer as well as html rendered view, in additions to result images).  If a link doesn't work the first time, give it a sec and retry, be patient, they are pretty big files...
 	
+## All Project Code
 - [All Jupyter Notebooks viewable via Nbviewer](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/tree/main/ENTER/code/)
 - [101 - Examining Sensor Metadata](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/101_examining_sensor_metadata_csv_files.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/101_examining_sensor_metadata_csv_files.html)]
 - [102 - Dask Dataset Read-in and Processing](https://nbviewer.jupyter.org/github/tombresee/SensorAnalysis/blob/main/ENTER/code/102_dask_reading_processing_filtering.ipynb) [[html](https://ghcdn.rawgit.org/tombresee/SensorAnalysis/main/ENTER/code/102_dask_reading_processing_filtering.html)]
@@ -253,14 +251,14 @@ data_format_version,project_id,data_start_date,data_end_date,creation_date,url
 	
 ##  References 
 
-### Technical Background and Overview 
-
+### Technical Background and Overview
 - [Data Source](https://www.mcs.anl.gov/research/projects/waggle/downloads/datasets/index.php) -- Master file (_AoT_Chicago.complete.latest.tar_) that expands to 340 GB csv file
 - [Unzipping Data Procedure](https://github.com/waggle-sensor/waggle/blob/master/data/aot-readme.md)  
 - [Data Ontology](ENTER/docs/sensor_ontology.csv) -- Sensor breakout and parameter ranges 
 - [High Level Overview](https://datasmart.ash.harvard.edu/news/article/a-guide-to-chicagos-array-of-things-initiative-1190)
 - [Project Homepage](https://tombresee.github.io/SensorAnalysis/)
 - [Heroku Results Summary Page](https://michigan-milestone.herokuapp.com/)
+
 
 ### Nodes 
 - [Latest News AoT](http://arrayofthings.github.io/)
@@ -272,11 +270,13 @@ data_format_version,project_id,data_start_date,data_end_date,creation_date,url
 - [The Sage Network](https://sagecontinuum.org/)
 - [Rollout Article](https://medium.com/array-of-things/five-years-100-nodes-and-more-to-come-d3802653db9f)
  
+
 	
 ### Metadata
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 - [In-depth Sensor Information](https://github.com/waggle-sensor/sensors)
 - [Latest Sensors](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv)
+
 
 
 ### API 
@@ -288,17 +288,19 @@ data_format_version,project_id,data_start_date,data_end_date,creation_date,url
 - [Beehive Server](https://github.com/waggle-sensor/beehive-server)
 - [Real Time Querying Data via API](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
 - [Filtering Mechanisms Explained](https://github.com/waggle-sensor/waggle-beehive-v2/blob/main/docs/querying-measurements.md#query-api)
+- Note: Unlike the bulk downloads, which provide data in daily, weekly, or monthly installments back to early 2017, the API data is focused only on recent data, going back one week. However, the data are updated more frequently, within five minutes of collection.
 
-Note: Unlike the bulk downloads, which provide data in daily, weekly, or monthly installments back to early 2017, the API data is focused only on recent data, going back one week. However, the data are updated more frequently, within five minutes of collection.
-	
-		
+
+
 <br>
 
-## Overall Project Code Methodology
 
+
+## Overall Project Code Methodology
 Briefly describe the workflow of your source code, the learning methods you used, and the feature representations you chose.
 How did you tune parameters?
 What challenges did you encounter and how did you solve them?
+
 
 
 	
@@ -557,9 +559,6 @@ Periodically, some sensors would have windows of missing values (temperature in 
 | 123 | 001e0611804d | ComEd Training Center                                       | 41.8298 | -87.6595 | 2019/04/25 00:00:00 |
 | 124 | 001e061182a2 | ComEd Training Center                                       | 41.8298 | -87.6595 | 2019/04/25 00:00:00 |
 | 125 | 001e061144be | UChicago, Regenstine Chicago IL                             | 41.7925 | -87.6    | 2018/03/15 00:00:00 |
-	
-	
-
 	
 	
 
