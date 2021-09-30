@@ -31,7 +31,7 @@ Towards a deeper understanding of IoT Unsupervised Learning techniques and senso
 - [References](#references)
 	- [Technical Background and Overview](#technical-background-and-overview)
 	- [Nodes](#nodes)
-	- [Metadata](#metdata)
+	- [Metadata](#metadata)
 	- [API](#api)
 - [Overall Project Code Methodology](#overall-project-code-methodology)
 - [Unsupervised Learning Methods](#unsupervised-learning-methods)
