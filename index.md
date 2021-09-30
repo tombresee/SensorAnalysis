@@ -269,13 +269,10 @@ data_format_version,project_id,data_start_date,data_end_date,creation_date,url
 - [Rollout Article](https://medium.com/array-of-things/five-years-100-nodes-and-more-to-come-d3802653db9f)
  
 
-	
 ### Metadata
 - [Waggle Source Code Repo](https://github.com/waggle-sensor/waggle)
 - [In-depth Sensor Information](https://github.com/waggle-sensor/sensors)
 - [Latest Sensors](https://github.com/waggle-sensor/beehive-server/blob/master/publishing-tools/projects/AoT_Chicago.complete/sensors.csv)
-
-
 
 ### API 
 - [Original AoT API Link](https://arrayofthings.docs.apiary.io/#introduction/data,-entities-and-relationships/observations-and-metrics) - replaced by below 
