@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
+is_project_page: false
 title: SensorAnalysis
 description: Examination of the Array of Things (AoT) Production Sensor Network
 
